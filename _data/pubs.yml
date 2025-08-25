@@ -53,7 +53,6 @@
     - metaheuristic
     - continuous control
 
-
 - short_id: "kim2025_ida"
   title: "Semi-supervised contrastive learning with decomposition-based data augmentation for time series classification"
   authors: "Dokyun Kim, Sukhyun Cho, Heewoong Chae, Jonghun Park, Jaeseok Huh*"
@@ -105,7 +104,7 @@
     Traffic congestion frequently occurs at multiple intersections with high vehicular traffic, particularly during rush hour.
     Inconsistent signal cycle lengths across intersections can hinder traffic flow, even when an upstream intersection grants
     a green light. To address this, the signal cycle lengths of multiple intersections should be identical. Furthermore,
-    practical constraints must be considered: (1) all signal times must be integers, (2) phase sequences should remain fixed
+    practical constraints must be considered- (1) all signal times must be integers, (2) phase sequences should remain fixed
     to prevent accidents and driver confusion, and (3) pedestrian safety must be ensured through sufficient crossing time.
     This paper proposes a novel particle swarm optimization-based method for optimizing traffic signals at multiple intersections,
     addressing the need for consistent signal cycle lengths and the practical constraints. The proposed method was evaluated
