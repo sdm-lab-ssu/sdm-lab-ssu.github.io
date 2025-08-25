@@ -20,7 +20,7 @@
   authors: "Gwang-Jong Ko, Jaeseok Huh*"
   venue: "Swarm and Evolutionary Computation, 2025"
   site: "https://doi.org/10.1016/j.swevo.2025.101920"    # 제목에 걸 링크
-  img: "../img/papers/ManipBench_CoRL2025.gif"
+  img: "../img/papers/metaRL.gif"
   abs: >-
     In recent studies, the policy-based deep reinforcement learning (DRL) algorithms have exhibited superior
     performance in addressing continuous control problems, such as machine arms control and robot gait learning.
