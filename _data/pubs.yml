@@ -58,6 +58,7 @@
   title: "Semi-supervised contrastive learning with decomposition-based data augmentation for time series classification"
   authors: "Dokyun Kim, Sukhyun Cho, Heewoong Chae, Jonghun Park, Jaeseok Huh"
   venue: "Intelligent Data Analysis"
+  site: "https://journals.sagepub.com/doi/abs/10.3233/IDA-240002"
   img: "/img/papers/nnclr-ts-ida2025.svg"
   tags:
     - Time Series
