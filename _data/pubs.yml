@@ -17,7 +17,7 @@
 
 - short_id: "ko2025_swevo"
   title: "Metaheuristic-based weight optimization for robust deep reinforcement learning in continuous control"
-  authors: "Gwang-Jong Ko, Jaeseok Huh"
+  authors: "Gwang-Jong Ko, Jaeseok Huh*"
   venue: "Swarm and Evolutionary Computation, 2025"
   site: "https://doi.org/10.1016/j.swevo.2025.101920"    # 제목에 걸 링크
   img: "../img/papers/ManipBench_CoRL2025.gif"
