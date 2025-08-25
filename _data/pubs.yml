@@ -56,7 +56,7 @@
 - short_id: "kim2025_ida"
   title: "Semi-supervised contrastive learning with decomposition-based data augmentation for time series classification"
   authors: "Dokyun Kim, Sukhyun Cho, Heewoong Chae, Jonghun Park, Jaeseok Huh*"
-  venue: "Intelligent Data Analysis"
+  venue: "Intelligent Data Analysis, 2025"
   site: "https://journals.sagepub.com/doi/abs/10.3233/IDA-240002"
   img: "/img/papers/nnclr-ts-ida2025.svg"
   tags:
@@ -83,7 +83,7 @@
     @article{kim2025ida,
       title={Semi-supervised contrastive learning with decomposition-based data augmentation for time series classification},
       author={Kim, Dokyun and Cho, Sukhyun and Chae, Heewoong and Park, Jonghun and Huh, Jaeseok},
-      journal={Intelligent Data Analysis, 2025},
+      journal={Intelligent Data Analysis},
       volume={29},
       number={1},
       pages={94--115},
