@@ -96,6 +96,7 @@
   authors: "박진환, 허재석*"
   venue: "대한산업공학회지"
   img: "/img/papers/nnclr-ts-ida2025.svg"   # 필요 시 파일명/경로만 교체
+  site: "https://jkiie.org/xml/42247/42247.pdf"
   tags:
     - Traffic Signal Optimization
     - Particle Swarm Optimization
