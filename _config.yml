@@ -1,17 +1,17 @@
 # --- General options --- #
 
 # Name of website
-title: SLURM Lab at USC
+title: Simulation-based Decision-Making Lab (SDM Lab)
 
 # Short description of your site
-description: SLURM Lab at USC
+description: Simulation-based decision-making for smart manufacturing, scheduling, and optimization
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-# url: "http://localhost:4000"
+url: "https://sdm-lab-ssu.github.io"
 
 # baseurl should be an empty string
 # baseurl: ""
@@ -70,7 +70,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: SLURM Lab at USC
+  name: Jaeseok Huh
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
