@@ -48,58 +48,46 @@
     # - ["PDF", "/assets/papers/ko2025.pdf"]
     # - ["Code", "https://github.com/..."]
   # award: "Best Paper Award"   # 있으면 표시
-
-
-
-# - abs: In recent studies, the policy-based deep reinforcement learning (DRL) algorithms have exhibited superior performance in addressing continuous control problems, such as machine arms control and robot gait learning. However, these algorithms frequently face challenges inherent in gradient descent-based weight optimization methods, including susceptibility to local optima, slow learning speeds due to saddle points, approximation errors, and suboptimal hyperparameters. This instability leads to significant performance discrepancies among agent instances trained under identical settings, which complicates the practical application of reinforcement learning. To address this, we propose a metaheuristic-based weight optimization framework designed to mitigate learning instability in DRL for continuous control tasks. The proposed framework introduces a two-phase optimization process, where an additional search phase using swarm intelligence algorithms is conducted at the end of the learning phase utilizing DRL. In numerical experiments, the proposed framework demonstrated superior and more stable performance compared to conventional DRL algorithms in robot locomotion tasks.
-#   authors: "Gwang-Jong Ko, Jaeseok Huh"
-#   award: null
-#   img: ../img/papers/ManipBench_CoRL2025.gif
-#   links:
-#     '[arXiv]': https://arxiv.org/abs/2505.09698
-#   short_id: 2025_ManipBench
-#   title: "Metaheuristic-based weight optimization for robust deep reinforcement learning in continuous control"
-#   venue: Swarm and Evolutionary Computation 
-#   video_embed: null
-#   tags:
-#     - benchmark 
-#     - vlm 
-
-- abs: Learning bimanual manipulation is challenging due to its high
-    dimensionality and tight coordination required between two arms. Eye-in-hand
-    imitation learning, which uses wrist-mounted cameras, simplifies perception
-    by focusing on task-relevant views. However, collecting diverse
-    demonstrations remains costly, motivating the need for scalable data
-    augmentation. While prior work has explored visual augmentation in
-    single-arm settings, extending these approaches to bimanual manipulation
-    requires generating viewpoint-consistent observations across both arms and
-    producing corresponding action labels that are both valid and feasible. In
-    this work, we propose Diffusion for COordinated Dual-arm Data Augmentation
-    (D-CODA), a method for offline data augmentation tailored to eye-in-hand
-    bimanual imitation learning that trains a diffusion model to synthesize
-    novel, viewpoint-consistent wrist-camera images for both arms while
-    simultaneously generating joint-space action labels. It employs constrained
-    optimization to ensure that augmented states involving gripper-to-object
-    contacts adhere to constraints suitable for bimanual coordination. We
-    evaluate D-CODA on 5 simulated and 3 real-world tasks. Our results across
-    2250 simulation trials and 300 real-world trials demonstrate that it
-    outperforms baselines and ablations, showing its potential for scalable data
-    augmentation in eye-in-hand bimanual manipulation. 
-  authors: "I-Chun Arthur Liu, Jason Chen, Gaurav Sukhatme, Daniel Seita"
-  award: null
-  bib: "@inproceedings{liu2025DCODA,\n
-    \ title={{D-CODA: Diffusion for Coordinated Dual-Arm Data Augmentation}},\n
-    \ author={I-Chun Arthur Liu and Jason Chen and Gaurav Sukhatme and Daniel Seita},\n
-    \ booktitle={Conference on Robot Learning (CoRL)},\n
-    \ Year={2025}\n}"
-  img: ../img/papers/DCODA_CoRL2025.gif
-  links:
-    '[arXiv]': https://arxiv.org/abs/2505.04860 
-  short_id: 2025_DCODA
-  site: https://dcodaaug.github.io/D-CODA/ 
-  title: "D-CODA: Diffusion for Coordinated Dual-Arm Data Augmentation"
-  venue: Conference on Robot Learning (CoRL), 2025. 
-  video_embed: null
   tags:
-    - dexterous_hands
+    - reinforcement learning
+    - metaheuristic
+    - continuous control
+
+
+- short_id: "kim2025_ida"
+  title: "Semi-supervised contrastive learning with decomposition-based data augmentation for time series classification"
+  authors: "Dokyun Kim, Sukhyun Cho, Heewoong Chae, Jonghun Park, Jaeseok Huh"
+  venue: "Intelligent Data Analysis"
+  img: "/img/papers/nnclr-ts-ida2025.svg"
+  tags:
+    - Time Series
+    - Semi-supervised Learning
+    - Contrastive Learning
+    - Data Augmentation
+  abs: >-
+    While time series data are prevalent across diverse sectors, data labeling process still remains resource-intensive.
+    This results in a scarcity of labeled data for deep learning, emphasizing the importance of semi-supervised learning
+    techniques. Applying semi-supervised learning to time series data presents unique challenges due to its inherent temporal
+    complexities. Efficient contrastive learning for time series requires specialized methods, particularly in the development
+    of tailored data augmentation techniques. In this paper, we propose a single-step, semi-supervised contrastive learning
+    framework named nearest neighbor contrastive learning for time series (NNCLR-TS). Specifically, the proposed framework
+    incorporates a support set to store representations including their label information, enabling a pseudo-labeling of the
+    unlabeled data based on nearby samples in the latent space. Moreover, our framework presents a novel data augmentation
+    method, which selectively augments only the trend component of the data, effectively preserving their inherent periodic
+    properties and facilitating effective training. For training, we introduce a novel contrastive loss that utilizes the
+    nearest neighbors of augmented data for positive and negative representations. By employing our framework, we unlock the
+    ability to attain high-quality embeddings and achieve remarkable performance in downstream classification tasks, tailored
+    explicitly for time series. Experimental results demonstrate that our method outperforms the state-of-the-art approaches
+    across various benchmarks, validating the effectiveness of our proposed method.
+  bib: |-
+    @article{kim2025ida,
+      title={Semi-supervised contrastive learning with decomposition-based data augmentation for time series classification},
+      author={Kim, Dokyun and Cho, Sukhyun and Chae, Heewoong and Park, Jonghun and Huh, Jaeseok},
+      journal={Intelligent Data Analysis},
+      volume={29},
+      number={1},
+      pages={94--115},
+      year={2025},
+      publisher={SAGE Publications}
+    }
 
