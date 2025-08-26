@@ -869,17 +869,21 @@ table tr td, table tr {
   position: absolute; 
 }
 
-/* === Override: Korean + English system font stack === */
+/* === Global font override: 한글/영문 통일 === */
 body,
 p,
 li,
 table,
 h1, h2, h3, h4, h5, h6,
 .navbar-custom .navbar-brand,
-.navbar-custom .nav li a {
+.navbar-custom .nav li a,
+footer,
+button,
+input,
+textarea {
   font-family:
     'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Gothic',
-    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif !important;
 }
 
 
