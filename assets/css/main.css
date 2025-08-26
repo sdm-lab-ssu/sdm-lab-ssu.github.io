@@ -4,26 +4,6 @@ layout: null
 
 @import url("pygment_highlights.css");
 
-<script>
-    // 네비게이션 바 요소를 선택
-    const navbar = document.querySelector('.navbar-custom');
-    // 스크롤 이벤트 리스너를 추가
-    window.addEventListener('scroll', () => {
-        // 현재 스크롤 위치를 확인
-        const scrollTop = window.scrollY || document.documentElement.scrollTop;
-        // 스크롤 위치가 50px를 초과하면
-        if (scrollTop > 50) {
-            // 네비게이션 바에 'top-nav-short' 클래스를 추가
-            navbar.classList.add('top-nav-short');
-        } else {
-            // 스크롤 위치가 50px 이하라면 클래스 제거
-            navbar.classList.remove('top-nav-short');
-        }
-    });
-</script>
-
-
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
