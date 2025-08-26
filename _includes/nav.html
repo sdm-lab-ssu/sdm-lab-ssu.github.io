@@ -8,12 +8,12 @@
         <span class="icon-bar"></span>
       </button>
       {%- if site.title-img -%}
-		 <a class="navbar-brand" href="{{ '' | absolute_url }}">
-		    <img src="{{ site.title-img | relative_url }}"
-		         alt="SDM Lab Logo"
-		         style="height:24px; vertical-align:middle; margin-right:8px;">
-		    <span style="vertical-align:middle;">{{ site.title }}</span>
-		  </a>
+		<a class="navbar-brand" href="{{ '' | absolute_url }}" style="display:flex; align-items:center;">
+		  <img src="{{ site.title-img | relative_url }}"
+		       alt="SDM Lab Logo"
+		       style="height:28px; margin-right:10px;">
+		  <span style="white-space:nowrap;">{{ site.title }}</span>
+		</a>
       {%- else -%}
         <a class="navbar-brand" href="{{ '' | absolute_url }}">{{ site.title }}</a>
       {%- endif -%}
