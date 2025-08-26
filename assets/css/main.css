@@ -149,9 +149,7 @@ img {
   transition: padding .5s ease-in-out;
 }
 .navbar-custom .navbar-brand-logo img {
-  height: 65px;
-  margin-right: 10px; /* 글씨와 로고 사이 여백 */
-  vertical-align: middle; /* 글씨랑 높이 맞추기 */
+  height: 50px;
   -webkit-transition: height .5s ease-in-out;
   -moz-transition: height .5s ease-in-out;
   transition: height .5s ease-in-out;
