@@ -3,7 +3,7 @@ layout: page
 title: Members
 subtitle:
 members:
-  - name: PhD Students
+  - name: Faculty
     list:
       - full: true
         list:
@@ -84,15 +84,7 @@ members:
             photo_url: https://slurm-lab-usc.github.io/img/people/SamBurns.jpeg
             web_url: https://www.linkedin.com/in/samuel-burns-75702526b/
 
-  # - name: Interns and Visitors
-  #   list:
-  #     - full: true
-  #       list:
-  #         - name: Coming
-  #           photo_url: https://slurm-lab-usc.github.io/img/USC_Slogan.png
-  #           web_url: https://slurm-lab-usc.github.io/
-
-  - name: Faculty
+  - name: aaa
     list:
       - full: true
         list:
