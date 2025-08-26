@@ -1,38 +1,46 @@
+<!-- _layouts/member.html (프런트매터 없음!) -->
+<div class="container-md">
+  <div class="row" style="align-items:center; margin-bottom:20px;">
+    <div class="col-sm-3 text-center">
+      {% assign photo_src = page.photo | default: '/img/people/default_profile.png' %}
+      <img
+        src="{{ photo_src | relative_url }}"
+        alt="{{ page.title }}"
+        class="img-responsive"
+        style="width:180px; height:180px; object-fit:cover; border-radius:10px; margin:0 auto;">
+    </div>
 
-<!-- ---
-layout: page
----
-<h1>{{ page.title }}</h1>
-<p>(테스트) 이 줄이 보이면 member 레이아웃 연결 성공</p>
+    <div class="col-sm-9">
+      <h1 class="post-title" style="margin-top:0;">{{ page.title }}</h1>
+      {% if page.role %}
+        <p class="lead" style="margin:2px 0 8px;"><strong>{{ page.role }}</strong></p>
+      {% endif %}
 
-{% if page.photo %}
-  <img src="{{ page.photo | relative_url }}" alt="" style="width:160px;height:160px;object-fit:cover;">
-{% endif %}
-{{ content }} -->
+      {% if page.interests %}
+        <div style="color:#666; margin-bottom:6px;">
+          <strong>Interests:</strong> {{ page.interests | join: ", " }}
+        </div>
+      {% endif %}
 
+      {% if page.email %}
+        <div style="margin-bottom:6px;">
+          <strong>Email:</strong> <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+        </div>
+      {% endif %}
 
----
-layout: page
----
-<div class="member-header" style="display:flex; gap:24px; align-items:center;">
-  <img src="{{ page.photo | relative_url }}" alt="{{ page.title }}" style="width:160px; height:160px; object-fit:cover; border-radius:12px;">
-  <div>
-    <h1 style="margin:0 0 8px;">{{ page.title }}</h1>
-    {% if page.role %}<div><strong>{{ page.role }}</strong></div>{% endif %}
-    {% if page.interests %}<div style="color:#666;">Interests: {{ page.interests | join: ", " }}</div>{% endif %}
-    {% if page.email %}<div>Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a></div>{% endif %}
-    {% if page.links %}
-      <div style="margin-top:8px;">
-        {% for l in page.links %}
-          <a href="{{ l[1] }}" target="_blank" style="margin-right:12px;">{{ l[0] }}</a>
-        {% endfor %}
-      </div>
-    {% endif %}
+      {% if page.links %}
+        <div style="margin-top:4px;">
+          {% for l in page.links %}
+            <a href="{{ l[1] }}" target="_blank" style="margin-right:14px;">{{ l[0] }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
   </div>
-</div>
 
-<hr>
+  <hr>
 
-<div class="member-body">
-  {{ content }}
+  <div class="post-entry">
+    {{ content }}
+  </div>
 </div>
