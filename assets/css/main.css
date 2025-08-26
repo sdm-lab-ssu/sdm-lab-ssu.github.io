@@ -4,18 +4,6 @@ layout: null
 
 @import url("pygment_highlights.css");
 
-/* --- General --- */
-/* KR/EN 시스템 폰트 스택 */
-body,
-h1, h2, h3, h4, h5, h6,
-.navbar-custom .navbar-brand,
-.navbar-custom .nav li a {
-  font-family:
-    'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Gothic',
-    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-}
-
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
@@ -880,6 +868,21 @@ table tr td, table tr {
   text-shadow: 1px 1px black;
   position: absolute; 
 }
+
+/* === Override: Korean + English system font stack === */
+body,
+p,
+li,
+table,
+h1, h2, h3, h4, h5, h6,
+.navbar-custom .navbar-brand,
+.navbar-custom .nav li a {
+  font-family:
+    'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Gothic',
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+
 /* td.pubimg { */
     /* <http://www.w3.org/wiki/CSS/Properties/text-align>
      * left, right, center, justify, inherit
