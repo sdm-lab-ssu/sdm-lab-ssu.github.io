@@ -19,33 +19,7 @@ members:
           - name: Charlene Yuen
             photo_url: https://slurm-lab-usc.github.io/img/people/Charlene.jpg
             web_url: https://lazerbird.github.io/
-          - name: Changhui Hou
-            photo_url: https://slurm-lab-usc.github.io/img/people/changhuiUSC.jpg
-            web_url: https://github.com/changhuiUSC
-          - name: Sicheng He
-            photo_url: https://slurm-lab-usc.github.io/img/people/hesicheng.jpg
-            web_url: https://hesic73.github.io/
-          - name: Jonathan Zamora
-            photo_url: https://slurm-lab-usc.github.io/img/people/jonzamora.jpg
-            web_url: https://jonzamora.dev/
-          - name: Wenhao Liu
-            photo_url: https://slurm-lab-usc.github.io/img/people/WenhaoLiu.jpg
-            web_url: https://Liu-wenhao-1223.github.io/
-          - name: Rajas Chitale
-            photo_url: https://slurm-lab-usc.github.io/img/people/RajasChitale.JPG
-            web_url: https://www.linkedin.com/in/rajas-chitale-rcv/
-          - name: Nikita Sarawgi
-            photo_url: https://slurm-lab-usc.github.io/img/people/NikitaSarawgi.jpg
-            web_url: https://www.linkedin.com/in/nikita-sarawgi/
-          - name: Zinan Li
-            photo_url: https://slurm-lab-usc.github.io/img/people/Zinan.jpg
-            web_url: https://www.linkedin.com/in/zinanli02/
-          - name: Michael Gu
-            photo_url: https://slurm-lab-usc.github.io/img/people/MichaelGu.jpg
-            web_url: https://mgu247.github.io/
-          - name: Anthony Zhang
-            photo_url: https://slurm-lab-usc.github.io/img/people/AnthonyZhang.png
-            web_url: https://www.linkedin.com/in/anthonyzhangseattle/
+         
 
   - name: Undergraduate Students
     list:
@@ -54,23 +28,8 @@ members:
           - name: Oluwatobiloba Adesanya
             photo_url: https://slurm-lab-usc.github.io/img/people/TobiAdesanya.jpeg
             web_url: https://www.linkedin.com/in/oluwatobilobaadesanya
-          - name: Jonathan Ong
-            photo_url: https://slurm-lab-usc.github.io/img/people/JonathanOng.jpg
-            web_url: https://www.linkedin.com/in/ongjonathand
-          - name: Jason Chen
-            photo_url: https://slurm-lab-usc.github.io/img/people/JasonChen.jpeg
-            web_url: https://jasoonchen.com/
-          - name: Samuel Burns
-            photo_url: https://slurm-lab-usc.github.io/img/people/SamBurns.jpeg
-            web_url: https://www.linkedin.com/in/samuel-burns-75702526b/
+          
 
-  - name: aaa
-    list:
-      - full: true
-        list:
-          - name: Daniel Seita
-            photo_url: https://slurm-lab-usc.github.io/img/people/Daniel_2023_square.png
-            web_url: https://danielseita.github.io/
 
   # - name: Alumni
   #   web_url: https://slurm-lab-usc.github.io/alumni/
@@ -84,42 +43,7 @@ members:
             web_url: https://haojiang4400.github.io/
             period: 2023-2025 (CS & AM)
             next_step: University of Southern California, PhD in CS
-          - name: Qian (Peter) Wang
-            web_url: https://pwang649.github.io/
-            period: 2023-2024 (CS & AM)
-            next_step: Yale University, PhD in CS
-          - name: Emily Zhu
-            web_url: https://www.linkedin.com/in/emily-k-zhu/
-            period: 2023-2024 (CS & BA)
-            next_step:
-          - name: Vijay Kumaravelrajan
-            web_url: https://www.linkedin.com/in/vijay-kumaravelrajan/
-            period: 2024 (CS & AM)
-            next_step:
-          - name: Zitong Huang
-            web_url: https://www.linkedin.com/in/zitong-huang/
-            period: 2024 (CECS)
-            next_step:
-          - name: Anisha Chitta
-            web_url: https://www.linkedin.com/in/anisha-chitta/
-            period: 2024 (CSBA)
-            next_step:
-          - name: Rida Faraz
-            web_url: https://www.linkedin.com/in/rida-faraz/
-            period: 2024-2025 (CECS)
-            next_step:
-          - name: Maria Guerrero Cordoba
-            web_url: https://www.linkedin.com/in/maria-guerrero-cordoba-80a116333
-            period: 2025 (CS)
-            next_step:
-          - name: Letian Zhang
-            web_url: https://www.linkedin.com/in/letian-zhang-630b37235/
-            period: 2024-2025 (CS)
-            next_step: CMU, INI MSIS
-          - name: David Kim
-            web_url: https://www.linkedin.com/in/david-kim-b50046206/
-            period: 2024-2025 (CS)
-            next_step: 
+          
 
       - name: Master's Students
         full: False
@@ -132,79 +56,9 @@ members:
             web_url: https://vedant2311.github.io
             period: 2023-2025 (CS)
             next_step: AutoX
-          - name: Karan Owalekar
-            web_url: https://www.linkedin.com/in/karan-owalekar/
-            period: 2023-2025 (CS)
-            next_step: Field AI
-          - name: Yuhai Wang
-            web_url: https://yuhaiw.github.io/
-            period: 2023-2025 (Analytics)
-            next_step: Northeastern University, PhD in Civil & EE
-          - name: Enyu Zhao
-            web_url: https://enyu-zhao.github.io/
-            period: 2023-2025 (CS)
-            next_step: University of Utah, PhD in CS 
-          - name: Ashwin Balasubramanian
-            period: 2024-2025 (CS)
-            web_url: https://www.linkedin.com/in/balasubramanian-ashwin/
-            next_step: Google 
-          - name: Harshitha B R
-            web_url: https://www.linkedin.com/in/harshitha-b-r-2ab510190/
-            period: 2024 (CS)
-            next_step: University of Southern California, PhD in CS
-          - name: Anupam Patil
-            web_url: https://www.linkedin.com/in/anupam-patil-114b841b0/
-            period: 2023-2024 (CS)
-            next_step: Wealth.com
-          - name: Dhanush Penmetsa
-            web_url: https://www.linkedin.com/in/dhanush-varma/
-            period: 2023-2024 (ECE)
-            next_step: 
+          
 
-      - name: Visitors / Volunteers
-        full: False
-        list:
-          - name: William Wang
-            web_url: https://wwang22.com/
-            period: 2025
-            next_step: Undergraduate at Columbia University
-          - name: Rutvik Patel
-            web_url: https://www.linkedin.com/in/rutvik-p4t3l/
-            period: 2024-2025
-            next_step: GrayMatter Robotics 
-          - name: Ce (Chris) Wang
-            web_url: https://www.linkedin.com/in/wangce94/
-            period: 2024
-            next_step: Ambarella Inc
-
-      - name: Interns
-        full: False
-        list:
-          - name: Min Aung Paing
-            web_url: https://www.linkedin.com/in/min-aung-paing-swe/
-            photo_url: 
-            period: USC Jump Start 2025 (Undergrad at UC San Diego)
-            next_step:
-          - name: Ethan Foong
-            photo_url: 
-            web_url: https://www.linkedin.com/in/ethan-foong/
-            period: USC SURE 2025 (Undergrad at Northwestern)
-            next_step:
-          - name: Gayathri Rajesh
-            photo_url: https://slurm-lab-usc.github.io/img/people/gayathri.jpg
-            web_url: https://www.linkedin.com/in/gayathri-rajesh-b84560228/
-            period: IUSSTF-Viterbi 2024 (Undergrad at National Institute of Technology, Tiruchirappalli)
-            next_step: UC San Diego, Masters in CS
-          - name: Abhinav Pillai
-            photo_url: https://slurm-lab-usc.github.io/img/people/Abhinav_Pillai.jpg
-            web_url: https://www.linkedin.com/in/abhinav-pillai-62244b237
-            period: USC REU 2024 (Undergrad at Indian Institute of Technology, Kharagpur)
-            next_step: Arizona State University, PhD in AE
-          - name: Ebonee Davis
-            photo_url: https://slurm-lab-usc.github.io/img/people/EboneeDavis.jpeg
-            web_url: https://www.linkedin.com/in/eboneetdavis/
-            period: USC SURE 2024 (Undergrad at MIT)
-            next_step:
+      
 ---
 
 <div class="row">
