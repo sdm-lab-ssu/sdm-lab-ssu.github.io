@@ -10,8 +10,15 @@ members:
           - name: Daniel Seita
             photo_url: https://slurm-lab-usc.github.io/img/people/Daniel_2023_square.png
             web_url: https://danielseita.github.io/
-
-
+  
+  - name: PhD Students
+    list:
+      - full: true
+        list:
+          - name: Minjune Hwang
+            photo_url: https://slurm-lab-usc.github.io/img/people/MinjuneHwang.png
+            web_url: https://mj-hwang.github.io/
+          
   - name: Master's Students
     list:
       - full: true
