@@ -124,14 +124,15 @@ img {
   letter-spacing: 1px;
 }
 
-.navbar-custom .navbar-brand{
-   font-size:24px;
-}
-
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
-  font-weight: 800;
+  font-weight: 500;
   color: {{ site.navbar-text-col }};
+}
+
+.navbar-custom .navbar-brand{
+   font-size:24px;
+   font-style: "Bold 700";
 }
 
 .navbar-custom .navbar-brand:hover,
