@@ -3,7 +3,7 @@ layout: member
 title: "Jaeseok Huh"
 role: "Professor"
 interests: ["Scheduling", "RL", "Smart Manufacturing"]
-photo: "/img/people/jshuh.png"
+photo: "/img/people/jshuh.jpg"
 email: "jshuh@ssu.ac.kr"
 permalink: /members/jaeseok_huh/   # ← 이 줄 추가!
 links:
