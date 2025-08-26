@@ -43,7 +43,7 @@ You can also find publications on <a href="https://scholar.google.com/citations?
 
 <script>
 (function () {
-  const DEFAULT_SCALE = 2;     // 기본 2배
+  const DEFAULT_SCALE = 2.5;     // 기본 2배
   const PADDING = 16;          // 커서와 미리보기 사이 간격
 
   let preview = null;
