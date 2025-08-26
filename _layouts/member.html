@@ -1,0 +1,25 @@
+---
+layout: page
+---
+<div class="member-header" style="display:flex; gap:24px; align-items:center;">
+  <img src="{{ page.photo | relative_url }}" alt="{{ page.title }}" style="width:160px; height:160px; object-fit:cover; border-radius:12px;">
+  <div>
+    <h1 style="margin:0 0 8px;">{{ page.title }}</h1>
+    {% if page.role %}<div><strong>{{ page.role }}</strong></div>{% endif %}
+    {% if page.interests %}<div style="color:#666;">Interests: {{ page.interests | join: ", " }}</div>{% endif %}
+    {% if page.email %}<div>Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a></div>{% endif %}
+    {% if page.links %}
+      <div style="margin-top:8px;">
+        {% for l in page.links %}
+          <a href="{{ l[1] }}" target="_blank" style="margin-right:12px;">{{ l[0] }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<hr>
+
+<div class="member-body">
+  {{ content }}
+</div>
