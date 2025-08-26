@@ -127,7 +127,7 @@
   title: "A generation and repair approach to scheduling semiconductor packaging facilities using case-based reasoning"
   authors: "In-Beom Park, Jaeseok Huh*, Jonghun Park"
   venue: "IEEE Access, 2023"
-  img: "/img/papers/pso_park_2024.gif"   # 필요 시 파일명/경로만 교체
+  img: "/img/papers/cbr_scheduling.svg"   # 필요 시 파일명/경로만 교체
   site: "https://ieeexplore.ieee.org/abstract/document/10129182/"
   tags:
     - Case based reasoning
