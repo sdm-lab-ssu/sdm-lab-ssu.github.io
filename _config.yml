@@ -2,6 +2,7 @@
 
 # Name of website
 title: Simulation-based Decision-Making Lab (SDM Lab)
+title-img: "/img/sdmlab-logo.png"   # 투명 배경 권장 (png/svg)
 
 # Short description of your site
 description: Simulation-based decision-making for smart manufacturing, scheduling, and optimization
