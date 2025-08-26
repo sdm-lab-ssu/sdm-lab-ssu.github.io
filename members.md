@@ -3,34 +3,14 @@ layout: page
 title: Members
 subtitle:
 members:
-  - name: Faculty
+    - name: Faculty
     list:
       - full: true
         list:
-          - name: Minjune Hwang
-            photo_url: https://slurm-lab-usc.github.io/img/people/MinjuneHwang.png
-            web_url: https://mj-hwang.github.io/
-          - name: Zeyu Shangguan
-            photo_url: https://slurm-lab-usc.github.io/img/people/ZeyuShangguan.jpeg
-            web_url: https://zshanggu.github.io/
-          - name: Yunshuang Li
-            photo_url: https://slurm-lab-usc.github.io/img/people/Yunshuang.jpeg
-            web_url: https://li-yunshuang.github.io/
-          - name: Yiyang Ling
-            photo_url: https://slurm-lab-usc.github.io/img/people/Yiyang.jpg
-            web_url: https://yiyang0207.github.io/
-          - name: Ayano Hiranaka
-            photo_url: https://slurm-lab-usc.github.io/img/people/AyanoHiranaka.jpg
-            web_url: https://misoshiruseijin.github.io
-          - name: Hao Jiang
-            photo_url: https://slurm-lab-usc.github.io/img/people/HaoJiang.png
-            web_url: https://haojiang4400.github.io/
-          - name: Toan Nguyen
-            photo_url: https://slurm-lab-usc.github.io/img/people/ToanNguyen.jpeg
-            web_url: https://toannguyen1904.github.io/
-          - name: Kyle Hatch
-            photo_url: https://slurm-lab-usc.github.io/img/people/KyleHatchSquare.jpg
-            web_url: https://khatch31.github.io/
+          - name: Daniel Seita
+            photo_url: https://slurm-lab-usc.github.io/img/people/Daniel_2023_square.png
+            web_url: https://danielseita.github.io/
+
 
   - name: Master's Students
     list:
