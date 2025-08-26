@@ -123,4 +123,37 @@
       year={2024}
     }
 
-
+- short_id: "park2023_ieaccess"
+  title: "A generation and repair approach to scheduling semiconductor packaging facilities using case-based reasoning"
+  authors: "In-Beom Park, Jaeseok Huh*, Jonghun Park"
+  venue: "IEEE Access, 2023"
+  img: "/img/papers/pso_park_2024.gif"   # 필요 시 파일명/경로만 교체
+  site: "https://ieeexplore.ieee.org/abstract/document/10129182/"
+  tags:
+    - Case based reasoning
+    - Semiconductor packaging facilities
+    - Schedule repair
+  abs: >-
+    As the demand for multi-chip products with high capacity and small size increases, semiconductor packaging 
+    facilities have been faced with complicated constraints such as re-entrant flows, sequence dependent setups, and 
+    alternative routes, which leads to difficulties in scheduling semiconductor manufacturing operations. Furthermore, 
+    due to the frequent variations in the relative importance between objectives as well as the variabilities in initial 
+    setup status, available machines, and production requirements, practitioners are obliged to obtain a schedule within 
+    a short amount of computation time. In this paper, we propose a novel two-phase framework that aims to quickly produce 
+    a schedule of semiconductor packaging facilities by using case-based reasoning for minimizing the weighted sum of 
+    machine loss time and waiting time of jobs. Specifically, in the case generation phase, a case database is constructed 
+    by solving case scheduling problems using an existing solver. The case reasoning phase is responsible for repairing 
+    operation type sequences in the cases to produce a schedule for an unseen scheduling problem whose production 
+    requirements, available machines, initial setup status, and weight between performance measures are different from those 
+    of cases. The extensive experimental results demonstrated that the proposed approach requires a short computation time 
+    similar to the rule-based methods while maintaining the quality of the schedules comparable to that of the existing metaheuristics.
+  bib: |-
+    @article{park2023generation,
+      title={A generation and repair approach to scheduling semiconductor packaging facilities using case-based reasoning},
+      author={Park, In-Beom and Huh, Jaeseok and Park, Jonghun},
+      journal={IEEE Access},
+      volume={11},
+      pages={50631--50641},
+      year={2023},
+      publisher={IEEE}
+    }
