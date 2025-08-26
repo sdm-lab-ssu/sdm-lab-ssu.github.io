@@ -3,7 +3,7 @@ layout: page
 title: Members
 subtitle:
 members:
-    - name: Faculty
+  - name: Faculty
     list:
       - full: true
         list:
