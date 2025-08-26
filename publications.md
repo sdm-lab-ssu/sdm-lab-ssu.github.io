@@ -19,6 +19,7 @@ subtitle:
 </style>
 
 You can also find publications on <a href="https://scholar.google.com/citations?user=0Xzd2f8AAAAJ">Google Scholar</a> which may include some preprints not yet listed here.
+
 **Journal Papers**
 
 <!-- Just make a table and iterate through publications. -->
