@@ -3,7 +3,7 @@ layout: page
 title: Members
 subtitle:
 members:
- - name: PhD Students
+  - name: PhD Students
     list:
       - full: true
         list:
