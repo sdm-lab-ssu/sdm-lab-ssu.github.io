@@ -3,22 +3,34 @@ layout: page
 title: Members
 subtitle:
 members:
-
- - name: Faculty
-    list:
-      - full: true
-        list:
-          - name: Daniel Seita
-            photo_url: https://slurm-lab-usc.github.io/img/people/Daniel_2023_square.png
-            web_url: https://danielseita.github.io/
-  
-  - name: PhD Students
+ - name: PhD Students
     list:
       - full: true
         list:
           - name: Minjune Hwang
             photo_url: https://slurm-lab-usc.github.io/img/people/MinjuneHwang.png
             web_url: https://mj-hwang.github.io/
+          - name: Zeyu Shangguan
+            photo_url: https://slurm-lab-usc.github.io/img/people/ZeyuShangguan.jpeg
+            web_url: https://zshanggu.github.io/
+          - name: Yunshuang Li
+            photo_url: https://slurm-lab-usc.github.io/img/people/Yunshuang.jpeg
+            web_url: https://li-yunshuang.github.io/
+          - name: Yiyang Ling
+            photo_url: https://slurm-lab-usc.github.io/img/people/Yiyang.jpg
+            web_url: https://yiyang0207.github.io/
+          - name: Ayano Hiranaka
+            photo_url: https://slurm-lab-usc.github.io/img/people/AyanoHiranaka.jpg
+            web_url: https://misoshiruseijin.github.io
+          - name: Hao Jiang
+            photo_url: https://slurm-lab-usc.github.io/img/people/HaoJiang.png
+            web_url: https://haojiang4400.github.io/
+          - name: Toan Nguyen
+            photo_url: https://slurm-lab-usc.github.io/img/people/ToanNguyen.jpeg
+            web_url: https://toannguyen1904.github.io/
+          - name: Kyle Hatch
+            photo_url: https://slurm-lab-usc.github.io/img/people/KyleHatchSquare.jpg
+            web_url: https://khatch31.github.io/
 
   - name: Master's Students
     list:
@@ -27,7 +39,33 @@ members:
           - name: Charlene Yuen
             photo_url: https://slurm-lab-usc.github.io/img/people/Charlene.jpg
             web_url: https://lazerbird.github.io/
-         
+          - name: Changhui Hou
+            photo_url: https://slurm-lab-usc.github.io/img/people/changhuiUSC.jpg
+            web_url: https://github.com/changhuiUSC
+          - name: Sicheng He
+            photo_url: https://slurm-lab-usc.github.io/img/people/hesicheng.jpg
+            web_url: https://hesic73.github.io/
+          - name: Jonathan Zamora
+            photo_url: https://slurm-lab-usc.github.io/img/people/jonzamora.jpg
+            web_url: https://jonzamora.dev/
+          - name: Wenhao Liu
+            photo_url: https://slurm-lab-usc.github.io/img/people/WenhaoLiu.jpg
+            web_url: https://Liu-wenhao-1223.github.io/
+          - name: Rajas Chitale
+            photo_url: https://slurm-lab-usc.github.io/img/people/RajasChitale.JPG
+            web_url: https://www.linkedin.com/in/rajas-chitale-rcv/
+          - name: Nikita Sarawgi
+            photo_url: https://slurm-lab-usc.github.io/img/people/NikitaSarawgi.jpg
+            web_url: https://www.linkedin.com/in/nikita-sarawgi/
+          - name: Zinan Li
+            photo_url: https://slurm-lab-usc.github.io/img/people/Zinan.jpg
+            web_url: https://www.linkedin.com/in/zinanli02/
+          - name: Michael Gu
+            photo_url: https://slurm-lab-usc.github.io/img/people/MichaelGu.jpg
+            web_url: https://mgu247.github.io/
+          - name: Anthony Zhang
+            photo_url: https://slurm-lab-usc.github.io/img/people/AnthonyZhang.png
+            web_url: https://www.linkedin.com/in/anthonyzhangseattle/
 
   - name: Undergraduate Students
     list:
@@ -36,7 +74,15 @@ members:
           - name: Oluwatobiloba Adesanya
             photo_url: https://slurm-lab-usc.github.io/img/people/TobiAdesanya.jpeg
             web_url: https://www.linkedin.com/in/oluwatobilobaadesanya
-         
+          - name: Jonathan Ong
+            photo_url: https://slurm-lab-usc.github.io/img/people/JonathanOng.jpg
+            web_url: https://www.linkedin.com/in/ongjonathand
+          - name: Jason Chen
+            photo_url: https://slurm-lab-usc.github.io/img/people/JasonChen.jpeg
+            web_url: https://jasoonchen.com/
+          - name: Samuel Burns
+            photo_url: https://slurm-lab-usc.github.io/img/people/SamBurns.jpeg
+            web_url: https://www.linkedin.com/in/samuel-burns-75702526b/
 
   # - name: Interns and Visitors
   #   list:
@@ -46,7 +92,13 @@ members:
   #           photo_url: https://slurm-lab-usc.github.io/img/USC_Slogan.png
   #           web_url: https://slurm-lab-usc.github.io/
 
-  
+  - name: Faculty
+    list:
+      - full: true
+        list:
+          - name: Daniel Seita
+            photo_url: https://slurm-lab-usc.github.io/img/people/Daniel_2023_square.png
+            web_url: https://danielseita.github.io/
 
   # - name: Alumni
   #   web_url: https://slurm-lab-usc.github.io/alumni/
