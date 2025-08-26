@@ -132,7 +132,7 @@ img {
 
 .navbar-custom .navbar-brand{
    font-size:24px;
-   font-style: "Bold 700";
+   font-weight: 700;
 }
 
 .navbar-custom .navbar-brand:hover,
