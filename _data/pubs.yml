@@ -157,3 +157,30 @@
       year={2023},
       publisher={IEEE}
     }
+
+- short_id: "kim2023_yolov5dkf"
+  title: "YOLOv5 와 Dual Kalman Filter 기반의 폐색영역에 강건한 객체 추적 프레임워크"
+  authors: "김다솔, 허재석"
+  venue: "한국정보기술학회논문지, 2023"
+  site: "https://ki-it.com/xml/35958/35958.pdf"   # DOI나 외부 링크가 있으면 여기에 추가
+  img: "../img/papers/Kalman.gif"   # 관련 이미지가 있으면 경로 수정
+  abs: >
+    Although YOLO(You Only Look Once) is a widely used algorithm in real-time object detection, it has a limitation in 
+    that its performance significantly deteriorates in occlusion areas where a detection target is obscured by another 
+    object or surrounding background. In this study, we propose a robust object tracking framework that utilizes YOLOv5 
+    and a Dual Kalman Filter(KF) consisting of Detection and Inference KFs to address this issue. The proposed framework
+    uses the Detection KF updated with a high weight on the detection results of YOLOv5 when YOLOv5 fails to detect objects. 
+    If the object is not detected over successive frames, the proposed framework attempts to track the object using the 
+    Inference KF updated with a high weight on the prediction results of KF. Through experiments using data with occluded 
+    regions, we confirmed that the proposed framework outperformed existing approaches in terms of detection accuracy 
+    while sacrificing less computation speed.
+  bib: |
+    @article{kim2023yolov5dkf,
+      title={YOLOv5 와 Dual Kalman Filter 기반의 폐색영역에 강건한 객체 추적 프레임워크},
+      author={김다솔 and 허재석},
+      journal={한국정보기술학회논문지},
+      volume={21},
+      number={2},
+      pages={19--32},
+      year={2023}
+    }
