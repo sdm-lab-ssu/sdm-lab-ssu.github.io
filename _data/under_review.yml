@@ -1,0 +1,21 @@
+# When making a new entry, copy the commented out entry, paste it, uncomment, and fill out the fields.
+# If any of the fields are confusing look at previous examples for guidance.
+# - abs: null
+#  authors: null
+#  award: null
+#  bib: null
+#  img: null
+#  links: {}
+#  short_id: null
+#  site: null
+#  title: null
+#  venue: null
+#  video_embed: null
+#  tags: null
+# Current tags for research areas, see the research areas page for more details:
+# deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
+
+- short_id: "park_huh_eswa"
+  title: "A Genetic Algorithm with Feasibility-Agnostic Encoding and Three-Phase Decoding for Scheduling Semiconductor Manufacturing Facilities Under Queue Time Limits"
+  authors: "In-beom Park, Jaeseok Huh"
+  venue: "Under review at Expert System with Applications"

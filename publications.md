@@ -20,6 +20,31 @@ subtitle:
 
 You can also find publications on <a href="https://scholar.google.com/citations?user=0Xzd2f8AAAAJ">Google Scholar</a> which may include some preprints not yet listed here.
 
+
+**Under Review**
+<div style="height: 30px;"></div>
+<ul class="pub-simple">
+  {% for item in site.data.under_review %}
+    <li>
+      <div><strong>{{ item.title }}</strong></div>
+      <div class="pubauthor">{{ item.authors }}</div>
+      <div><em>{{ item.venue }}</em></div>
+    </li>
+  {% endfor %}
+</ul>
+
+**Working Papers**
+<div style="height: 20px;"></div>
+<ul class="pub-simple">
+  {% for item in site.data.working_papers %}
+    <li>
+      <div><strong>{{ item.title }}</strong></div>
+      <div class="pubauthor">{{ item.authors }}</div>
+      <div><em>{{ item.venue }}</em></div>
+    </li>
+  {% endfor %}
+</ul>
+
 **International Journal Papers**
 
 <!-- Just make a table and iterate through publications. -->
@@ -41,7 +66,7 @@ You can also find publications on <a href="https://scholar.google.com/citations?
 <!-- Daniel: doing this to add a separate workshop publication section. -->
 <div style="height: 40px;"></div>
 
-
+<script>
 (function () {
   const DEFAULT_SCALE = 2.5;     // 기본 2배
   const PADDING = 16;          // 커서와 미리보기 사이 간격
