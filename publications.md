@@ -22,7 +22,7 @@ You can also find publications on <a href="https://scholar.google.com/citations?
 
 
 **Under Review**
-<div style="height: 30px;"></div>
+<!-- <div style="height: 30px;"></div> -->
 <ul class="pub-simple">
   {% for item in site.data.under_review %}
     <li>
@@ -34,7 +34,7 @@ You can also find publications on <a href="https://scholar.google.com/citations?
 </ul>
 
 **Working Papers**
-<div style="height: 20px;"></div>
+<!-- <div style="height: 20px;"></div> -->
 <ul class="pub-simple">
   {% for item in site.data.working_papers %}
     <li>
