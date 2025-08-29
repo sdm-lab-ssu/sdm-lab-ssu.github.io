@@ -1,0 +1,75 @@
+# When making a new entry, copy the commented out entry, paste it, uncomment, and fill out the fields.
+# If any of the fields are confusing look at previous examples for guidance.
+#- abs: null
+#  authors: null
+#  award: null
+#  bib: null
+#  img: null
+#  links: {}
+#  short_id: null
+#  site: null
+#  title: null
+#  venue: null
+#  video_embed: null
+#  tags: null
+# Current tags for research areas, see the research areas page for more details:
+# deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
+
+- short_id: "park2024_jkieie"
+  title: "공통 신호주기 제약을 고려한 Particle Swarm Optimization 기반 다중 교차로 교통 신호 최적화"
+  authors: "박진환, 허재석*"
+  venue: "대한산업공학회지, 2024"
+  img: "/img/papers/pso_park_2024.gif"   # 필요 시 파일명/경로만 교체
+  site: "https://jkiie.org/xml/42247/42247.pdf"
+  tags:
+    - Traffic Signal Optimization
+    - Particle Swarm Optimization
+    - Intelligent Transportation
+  abs: >-
+    Traffic congestion frequently occurs at multiple intersections with high vehicular traffic, particularly during rush hour.
+    Inconsistent signal cycle lengths across intersections can hinder traffic flow, even when an upstream intersection grants
+    a green light. To address this, the signal cycle lengths of multiple intersections should be identical. Furthermore,
+    practical constraints must be considered- (1) all signal times must be integers, (2) phase sequences should remain fixed
+    to prevent accidents and driver confusion, and (3) pedestrian safety must be ensured through sufficient crossing time.
+    This paper proposes a novel particle swarm optimization-based method for optimizing traffic signals at multiple intersections,
+    addressing the need for consistent signal cycle lengths and the practical constraints. The proposed method was evaluated
+    using the traffic simulator SUMO (Simulation of Urban Mobility). Compared to existing signals, the proposed method reduced
+    the average waiting time of vehicles passing through multiple intersections by 10% during morning rush hour, 20% during
+    normal hour, and 31% during evening rush hour.
+  bib: |-
+    @article{park2024pso,
+      title={공통 신호주기 제약을 고려한 Particle Swarm Optimization 기반 다중 교차로 교통 신호 최적화},
+      author={박진환 and 허재석},
+      journal={대한산업공학회지},
+      volume={50},
+      number={5},
+      pages={313--324},
+      year={2024}
+    }
+
+- short_id: "kim2023_yolov5dkf"
+  title: "YOLOv5 와 Dual Kalman Filter 기반의 폐색영역에 강건한 객체 추적 프레임워크"
+  authors: "김다솔, 허재석"
+  venue: "한국정보기술학회논문지, 2023"
+  site: "https://ki-it.com/xml/35958/35958.pdf"   # DOI나 외부 링크가 있으면 여기에 추가
+  img: "../img/papers/Kalman.gif"   # 관련 이미지가 있으면 경로 수정
+  abs: >
+    Although YOLO(You Only Look Once) is a widely used algorithm in real-time object detection, it has a limitation in 
+    that its performance significantly deteriorates in occlusion areas where a detection target is obscured by another 
+    object or surrounding background. In this study, we propose a robust object tracking framework that utilizes YOLOv5 
+    and a Dual Kalman Filter(KF) consisting of Detection and Inference KFs to address this issue. The proposed framework
+    uses the Detection KF updated with a high weight on the detection results of YOLOv5 when YOLOv5 fails to detect objects. 
+    If the object is not detected over successive frames, the proposed framework attempts to track the object using the 
+    Inference KF updated with a high weight on the prediction results of KF. Through experiments using data with occluded 
+    regions, we confirmed that the proposed framework outperformed existing approaches in terms of detection accuracy 
+    while sacrificing less computation speed.
+  bib: |
+    @article{kim2023yolov5dkf,
+      title={YOLOv5 와 Dual Kalman Filter 기반의 폐색영역에 강건한 객체 추적 프레임워크},
+      author={김다솔 and 허재석},
+      journal={한국정보기술학회논문지},
+      volume={21},
+      number={2},
+      pages={19--32},
+      year={2023}
+    }
