@@ -41,16 +41,7 @@ You can also find publications on <a href="https://scholar.google.com/citations?
 <!-- Daniel: doing this to add a separate workshop publication section. -->
 <div style="height: 40px;"></div>
 
-**Workshop Papers**
 
-<!--Daniel: uses the same pub.html, but a different data.workshop_pubs -->
-<table cellpadding="10" width="100%">
-    {% for pub in site.data.workshop_pubs %}
-        {% include pub.html %}
-    {% endfor %}
-</table>
-
-<script>
 (function () {
   const DEFAULT_SCALE = 2.5;     // 기본 2배
   const PADDING = 16;          // 커서와 미리보기 사이 간격
