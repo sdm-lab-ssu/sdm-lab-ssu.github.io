@@ -12,45 +12,45 @@ members:
             photo_url: /img/people/jshuh.jpg
             interests: ["RL", "Scheduling"]
   
-  - name: PhD Students
-    list:
-      - full: true
-        list:
-           - name: Jaeseok Huh
-             slug: jaeseok_huh
-             photo_url: /img/people/jshuh.jpg
-             interests: ["RL", "Scheduling"]
+  # - name: PhD Students
+  #   list:
+  #     - full: true
+  #       list:
+  #          - name: Jaeseok Huh
+  #            slug: jaeseok_huh
+  #            photo_url: /img/people/jshuh.jpg
+  #            interests: ["RL", "Scheduling"]
           
-  - name: Master's Students
-    list:
-      - full: true
-        list:
-          - name: Jaeseok Huh
-            slug: jaeseok_huh
-            photo_url: /img/people/jshuh.jpg
-            interests: ["RL", "Scheduling"]
+  # - name: Master's Students
+  #   list:
+  #     - full: true
+  #       list:
+  #         - name: Jaeseok Huh
+  #           slug: jaeseok_huh
+  #           photo_url: /img/people/jshuh.jpg
+  #           interests: ["RL", "Scheduling"]
          
 
-  - name: Undergraduate Students
-    list:
-      - full: true
-        list:
-          - name: Jaeseok Huh
-            slug: jaeseok_huh
-            photo_url: /img/people/jshuh.jpg
-            interests: ["RL", "Scheduling"]
+  # - name: Undergraduate Students
+  #   list:
+  #     - full: true
+  #       list:
+  #         - name: Jaeseok Huh
+  #           slug: jaeseok_huh
+  #           photo_url: /img/people/jshuh.jpg
+  #           interests: ["RL", "Scheduling"]
           
 
 
-  # - name: Alumni
-  #   web_url: https://slurm-lab-usc.github.io/alumni/
+  # # - name: Alumni
+  # #   web_url: https://slurm-lab-usc.github.io/alumni/
 
-  - name: Alumni
-    list:
-      - name: Jaeseok Huh
-        photo_url: /img/people/jshuh.jpg
-        current: "AutoX"
-        slug: jaeseok_huh   # (선택) 내부 상세를 만들려면 추가
+  # - name: Alumni
+  #   list:
+  #     - name: Jaeseok Huh
+  #       photo_url: /img/people/jshuh.jpg
+  #       current: "AutoX"
+  #       slug: jaeseok_huh   # (선택) 내부 상세를 만들려면 추가
           
 
      
