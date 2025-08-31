@@ -49,7 +49,7 @@
 
 - short_id: "kim2023_yolov5dkf"
   title: "YOLOv5 와 Dual Kalman Filter 기반의 폐색영역에 강건한 객체 추적 프레임워크"
-  authors: "김다솔, 허재석"
+  authors: "김다솔, 허재석*"
   venue: "한국정보기술학회논문지, 2023"
   site: "https://ki-it.com/xml/35958/35958.pdf"   # DOI나 외부 링크가 있으면 여기에 추가
   img: "../img/papers/Kalman.gif"   # 관련 이미지가 있으면 경로 수정
@@ -72,4 +72,32 @@
       number={2},
       pages={19--32},
       year={2023}
+    }
+
+
+- short_id: "kim2022_jsbs"
+  title: "A study on market segmentation based on e-commerce user reviews using clustering algorithm"
+  authors: "김민경, 허재석*, 사애진, 전아름, 이한별"
+  venue: "한국전자거래학회지, 2022"
+  site: "https://doi.org/10.7838/jsebs.2022.27.2.103"   # 실제 DOI 있음
+  img: "../img/papers/kim2022_jsbs.gif"   # 관련 이미지 있으면 지정, 없으면 삭제 가능
+  abs: >
+    Recently, as COVID-19 has made the e-commerce market expand widely, customers who have different
+    consumption patterns appear in the market. Because companies can obtain opinions and information
+    of customers from reviews, they increasingly face the requirements of managing customer reviews on
+    online platforms. In this study, we analyze customers and carry out market segmentation for classifying
+    and defining types of customers in e-commerce. Specifically, K-means clustering was conducted on customer
+    review data collected from Wemakeprice online shopping platform, which leads to the result that six clusters
+    were derived. Finally, we define the characteristics of each cluster and propose a customer management plan.
+    This study can be used as a reference to identify types of customers, reduce the cost of customer management,
+    and increase profit for online platforms.
+  bib: |
+    @article{kim2022jsbs,
+      title={A study on market segmentation based on e-commerce user reviews using clustering algorithm},
+      author={Kim, Mingyeong and Huh, Jaeseok and Sa, Aejin and Jun, Ahreum and Lee, Hanbyeol},
+      journal={Journal of Society for e-Business Studies},
+      volume={27},
+      number={2},
+      pages={103--122},
+      year={2022}
     }
