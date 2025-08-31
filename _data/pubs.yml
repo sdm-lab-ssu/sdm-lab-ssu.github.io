@@ -156,3 +156,23 @@
       publisher={IEEE}
     }
 
+
+- short_id: "huh2019_jim"
+  title: "A case-based reasoning approach to fast optimization of travel routes for large-scale AS/RSs"
+  authors: "Jaeseok Huh, Moon-jung Chae, Jonghun Park, Kwanho Kim*"
+  venue: "Journal of Intelligent Manufacturing, 2019"
+  site: "https://doi.org/10.1007/s10845-017-1347-0"
+  img: "../img/papers/huh2019_jim.gif"   # 관련 그림 있으면 지정, 없으면 삭제 가능
+  abs: >
+    Due to the increasing volume of stocks in modern production and logistics environments, the scale of automated storage and retrieval systems (AS/RSs) is becoming significantly large. To optimize travel routes for such large-scale AS/RSs, excessive computation complexity is unavoidable when applying existing metaheuristics due to their exhaustive nature. In this paper, we propose a case-based reasoning method for quickly optimizing travel routes. In the casebase construction phase, the method stores a large number of cases, each consisting of the optimized travel route for a particular setting. In the reasoning phase, the travel routes in the cases are then repaired to determine the optimal travel route for the current setting. Experimental results show that the proposed method successfully yields optimized travel routes in a short time compared to conventional methods, even for real-world scale problems.
+  bib: |
+    @article{huh2019jim,
+      title={A case-based reasoning approach to fast optimization of travel routes for large-scale AS/RSs},
+      author={Huh, Jaeseok and Chae, Moon-jung and Park, Jonghun and Kim, Kwanho},
+      journal={Journal of Intelligent Manufacturing},
+      volume={30},
+      number={4},
+      pages={1765--1778},
+      year={2019},
+      publisher={Springer}
+    }
