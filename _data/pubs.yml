@@ -176,3 +176,32 @@
       year={2019},
       publisher={Springer}
     }
+
+- short_id: "huh2020_ieeeaccess"
+  title: "A Behavior optimization method for unmanned combat aerial vehicles using matrix factorization"
+  authors: "Jaeseok Huh, Jonghun Park, Dongmin Shin, Yerim Choi*"
+  venue: "IEEE Access, 2020"
+  site: "https://doi.org/10.1109/ACCESS.2020.2997446"
+  img: "../img/papers/huh2020_ieeeaccess.gif"   # 관련 그림이 있으면 지정, 없으면 삭제 가능
+  abs: >
+    One of the fundamental technologies for unmanned combat aerial vehicles and combat simulators
+    is behavior optimization, which identifies a behavior that maximizes the probability of winning
+    a battle. With the advent of military science, combat logs became available, allowing machine
+    learning algorithms to be applied for behavior optimization. However, implicit attributes such
+    as operator experience, not explicitly recorded in log data, limit the performance of existing methods.
+    Additionally, the low frequency of specific behaviors creates datasets with imbalanced and missing values.
+    To address these issues, we apply a matrix factorization (MF) method, a latent factor model well-suited
+    for sophisticated imputation of missing values, to the behavior optimization problem. A situation–behavior
+    matrix, whose elements are ratings of behavior optimality in given situations, is constructed. Experiments
+    conducted with combat logs demonstrate that the proposed MF-based method achieves satisfactory performance
+    compared to existing approaches.
+  bib: |
+    @article{huh2020ieeeaccess,
+      title={A Behavior optimization method for unmanned combat aerial vehicles using matrix factorization},
+      author={Huh, Jaeseok and Park, Jonghun and Shin, Dongmin and Choi, Yerim},
+      journal={IEEE Access},
+      volume={8},
+      pages={100298--100307},
+      year={2020},
+      publisher={IEEE}
+    }
