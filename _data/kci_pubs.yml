@@ -101,3 +101,31 @@
       pages={103--122},
       year={2022}
     }
+
+- short_id: "ko2022_jkie"
+  title: "인공신경망 가중치의 효과적인 최적화를 위한 하이브리드 메타휴리스틱 알고리즘"
+  authors: "고광종, 허재석*"
+  venue: "대한산업공학회지, 2022"
+  site: "https://doi.org/10.7232/jkiees.2022.48.2.227"
+  img: "../img/papers/ko2022_jkie.png"   # 관련 그림 있으면 추가, 없으면 삭제 가능
+  abs: >
+    Due to the existence of numerous local minima, gradient descent methods face difficulties
+    in searching for the optimal weights of artificial neural networks (ANNs). To address this,
+    recent studies have explored the use of metaheuristics for ANN weight optimization,
+    with swarm intelligence algorithms showing particular promise. In this study, we propose
+    a hybrid metaheuristic algorithm that combines particle swarm optimization (PSO) and grey
+    wolf optimizer (GWO), both swarm intelligence approaches, to effectively optimize ANN weights.
+    During the search process, the proposed method leverages a swarm memory mechanism inspired
+    by survival behaviors in nature to mitigate convergence instability on validation datasets.
+    Numerical experiments demonstrate that the proposed algorithm outperforms conventional swarm
+    intelligence algorithms, stochastic gradient descent, and Adam optimizer in terms of classification accuracy.
+  bib: |
+    @article{ko2022jkie,
+      title={인공신경망 가중치의 효과적인 최적화를 위한 하이브리드 메타휴리스틱 알고리즘},
+      author={Ko, Gwang-Jong and Huh, Jaeseok},
+      journal={Journal of the Korean Institute of Industrial Engineers},
+      volume={48},
+      number={2},
+      pages={227--234},
+      year={2022}
+    }

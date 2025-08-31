@@ -132,7 +132,7 @@
   authors: "In-Beom Park, Jaeseok Huh*, Joongkyun Kim, Jonghun Park"
   venue: "IEEE Transactions on Automation Science and Engineering, 2020"
   site: "https://doi.org/10.1109/TASE.2019.2902488"
-  img: "/img/papers/park2020_tase.svg"   # 관련 그림이 있으면 추가, 없으면 삭제 가능
+  img: "/img/papers/park2020_tase.gif"   # 관련 그림이 있으면 추가, 없으면 삭제 가능
   abs: >
     As semiconductor manufacturers, recently, have focused on producing multichip products (MCPs), scheduling semiconductor 
     manufacturing operations become complicated due to the constraints related to reentrant production flows, sequence-dependent
