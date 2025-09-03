@@ -4,7 +4,7 @@ title: Lab Photos
 # slim: true
 
 lab_photos:
-  - semester: Summer 2025
+  - semester: Fall 2025
     list:
       - month: July
         list:
@@ -18,40 +18,7 @@ lab_photos:
             photo_url: /img/lab_photos/RSS1.jpg
           - event: "RSS 2025 🤖 & Volunteers"
             photo_url: /img/lab_photos/RSS2.jpg
-  - semester: Spring 2025
-    list:
-      - month: May
-        list:
-          - event: "Lab social: 7 wonders"
-            photo_url: /img/lab_photos/lab_social_2025_summer.jpg
-      - month: March
-        list:
-          - event: New PhD admits welcome dinner with Geometry, Vision, and Learning Lab
-            photo_url: /img/lab_photos/new_PhD_admits_welcome_dinner.JPEG
-      - month: February
-        list:
-          - event: Post-RSS deadline lunch with lead authors
-            photo_url: /img/lab_photos/Post_RSS2025.jpg
-  - semester: Fall 2024
-    list:
-      - month: September
-        list:
-          - event: Welcome Ph.D. students
-            photo_url: /img/lab_photos/phd_welcome.jpg
-      - month: August
-        list:
-          - event: Unitree G1 demo
-            photo_url: /img/lab_photos/Unitree_G1.jpg
-          - event: Unitree Go2 demo
-            photo_url: /img/lab_photos/Unitree_Go2.jpg
-  - semester: Summer 2024
-    list:
-      - month: August
-        list:
-          - event: "Lab social: Detroit Pizza Depot"
-            photo_url: /img/lab_photos/Lab_social.jpg
-          - event: Happy birthday to Daniel!🎂
-            photo_url: /img/lab_photos/Birthday.jpg
+  
 ---
 
 <!-- ## Summer 2024
