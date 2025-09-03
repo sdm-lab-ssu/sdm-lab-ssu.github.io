@@ -23,7 +23,7 @@ url: "https://sdm-lab-ssu.github.io"
 navbar-links:
   Home: "/"
   Members: "members"
-  # Research Areas: "areas"
+  Research Areas: "areas"
   Publications: "publications"
   # Lab Photos: "photos"
   # Other:
