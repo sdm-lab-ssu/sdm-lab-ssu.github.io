@@ -3,15 +3,7 @@ layout: page
 title: Members
 subtitle:
 members:
-  - name: Faculty
-    list:
-      - full: true
-        list:
-          - name: Jaeseok Huh
-            slug: jaeseok_huh
-            photo_url: /img/people/jshuh.jpg
-            interests: ["RL", "Scheduling"]
-  
+
   # - name: PhD Students
   #   list:
   #     - full: true
@@ -21,24 +13,26 @@ members:
   #            photo_url: /img/people/jshuh.jpg
   #            interests: ["RL", "Scheduling"]
           
-  # - name: Master's Students
-  #   list:
-  #     - full: true
-  #       list:
-  #         - name: Jaeseok Huh
-  #           slug: jaeseok_huh
-  #           photo_url: /img/people/jshuh.jpg
-  #           interests: ["RL", "Scheduling"]
+  - name: Master's Students
+    list:
+      - full: true
+        list:
+          - name: Jaeseok Huh
+            slug: jaeseok_huh
+            photo_url: /img/people/jshuh.jpg
+            interests: ["RL", "Scheduling"]
+            email: 111@ssu.ac.kr
          
 
-  # - name: Undergraduate Students
-  #   list:
-  #     - full: true
-  #       list:
-  #         - name: Jaeseok Huh
-  #           slug: jaeseok_huh
-  #           photo_url: /img/people/jshuh.jpg
-  #           interests: ["RL", "Scheduling"]
+  - name: Undergraduate Students
+    list:
+      - full: true
+        list:
+          - name: Jaeseok Huh
+            slug: jaeseok_huh
+            photo_url: /img/people/jshuh.jpg
+            interests: ["RL", "Scheduling"]
+            email: 111@ssu.ac.kr
           
 
 
@@ -82,6 +76,11 @@ members:
                 {% if link_url %}</a>{% endif %}
 
                 <div style="margin-top:8px; font-weight:700;">{{ member.name }}</div>
+                {% if member.email %}
+                  <div style="font-size:0.95em; color:#666;">
+                    <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+                  </div>
+                {% endif %}
 
                 {%- comment -%}
                   Alumni면 'Current'를, 그 외면 'interests'를 우선 표시.
