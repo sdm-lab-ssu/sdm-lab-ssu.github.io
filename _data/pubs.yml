@@ -84,7 +84,7 @@
   authors: "Dokyun Kim, Sukhyun Cho, Heewoong Chae, Jonghun Park, Jaeseok Huh*"
   venue: "Intelligent Data Analysis, 2025"
   site: "https://journals.sagepub.com/doi/abs/10.3233/IDA-240002"
-  img: "/img/papers/nnclr-ts-ida2025.svg"
+  img: "/img/papers/ida_kim.png"
   tags:
     - Time Series
     - Semi-supervised Learning
@@ -122,7 +122,7 @@
   title: "A generation and repair approach to scheduling semiconductor packaging facilities using case-based reasoning"
   authors: "In-Beom Park, Jaeseok Huh*, Jonghun Park"
   venue: "IEEE Access, 2023"
-  img: "/img/papers/cbr_scheduling.svg"   # 필요 시 파일명/경로만 교체
+  img: "/img/papers/cbr_scheduling.png"   # 필요 시 파일명/경로만 교체
   site: "https://ieeexplore.ieee.org/abstract/document/10129182/"
   tags:
     - Case based reasoning
