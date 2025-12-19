@@ -80,7 +80,7 @@
   authors: "김민경, 허재석*, 사애진, 전아름, 이한별"
   venue: "한국전자거래학회지, 2022"
   site: "https://doi.org/10.7838/jsebs.2022.27.2.103"   # 실제 DOI 있음
-  img: "../img/papers/kim2022_jsbs.gif"   # 관련 이미지 있으면 지정, 없으면 삭제 가능
+  img: "../img/papers/kci_cluster_2022.png"   # 관련 이미지 있으면 지정, 없으면 삭제 가능
   abs: >
     Recently, as COVID-19 has made the e-commerce market expand widely, customers who have different
     consumption patterns appear in the market. Because companies can obtain opinions and information
@@ -107,7 +107,7 @@
   authors: "고광종, 허재석*"
   venue: "대한산업공학회지, 2022"
   site: "https://doi.org/10.7232/jkiees.2022.48.2.227"
-  img: "../img/papers/ko2022_jkie.png"   # 관련 그림 있으면 추가, 없으면 삭제 가능
+  img: "../img/papers/kci_ko_2022.png"   # 관련 그림 있으면 추가, 없으면 삭제 가능
   abs: >
     Due to the existence of numerous local minima, gradient descent methods face difficulties
     in searching for the optimal weights of artificial neural networks (ANNs). To address this,
@@ -128,4 +128,22 @@
       number={2},
       pages={227--234},
       year={2022}
+    }
+
+- short_id: "huh2020decision"
+  title: "제조라인의 학습기반 디스패처를 위한 디스패치 의사결정 평가 시각화시스템"
+  authors: "허재석*, 박종헌"
+  venue: "전자거래학회지, 2020"
+  site: "http://calsec.or.kr/jsebs/index.php/jsebs/article/view/260"
+  img: "../img/papers/kci_ko_2022.png"   # 관련 그림 있으면 추가, 없으면 삭제 가능
+  abs: >
+    Recently, research using machine learning have shown remarkable results in various domains, leading to the fact that leaning-based dispatchers have intrigued interest in both academia and industry. To improve the performance of the dispatcher, each dispatch decision needs to be evaluated in detail. However, existing studies on visualization techniques for manufacturing lines have mainly focused on illustrating the performance indicators or abnormal patterns. In this paper, we propose a monitoring system that displays a variety of information about the manufacturing line along with alternatives at the time of each dispatching decision being made. Furthermore, the proposed system effectively represents the cause of the idle time of resources and the change of the performance index over time.
+  bib: |
+    @article{huh2020decision,
+      title={A Decision Monitoring System for Machine Learning Based Dispatcher of Manufacturing Lines},
+      author={Huh, Jaeseok and Park, Jonghun},
+      journal={Journal of Society for e-Business Studies},
+      volume={25},
+      number={1},
+      year={2020}
     }
