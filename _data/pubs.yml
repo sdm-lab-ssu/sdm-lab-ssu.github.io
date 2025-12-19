@@ -18,7 +18,7 @@
 - short_id: "park2026genetic"
   title: "A genetic algorithm with feasibility-agnostic encoding and three-phase decoding for scheduling problems in semiconductor manufacturing"
   authors: "In-Beom Park, Jaeseok Huh*"
-  venue: "Expert Systems with Applications (likely based on S0957417425 prefix)"
+  venue: "Expert Systems with Applications"
   site: "https://www.sciencedirect.com/science/article/pii/S0957417425039259"
   img: "../img/papers/FA3FD2.png"
   abs: >-
