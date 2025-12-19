@@ -79,7 +79,7 @@
   title: "A study on market segmentation based on e-commerce user reviews using clustering algorithm"
   authors: "김민경, 허재석*, 사애진, 전아름, 이한별"
   venue: "한국전자거래학회지, 2022"
-  site: "https://doi.org/10.7838/jsebs.2022.27.2.103"   # 실제 DOI 있음
+  site: "http://www.jsebs.org/jsebs/index.php/jsebs/article/view/416"   # 실제 DOI 있음
   img: "../img/papers/kci_cluster_2022.png"   # 관련 이미지 있으면 지정, 없으면 삭제 가능
   abs: >
     Recently, as COVID-19 has made the e-commerce market expand widely, customers who have different
@@ -106,7 +106,7 @@
   title: "인공신경망 가중치의 효과적인 최적화를 위한 하이브리드 메타휴리스틱 알고리즘"
   authors: "고광종, 허재석*"
   venue: "대한산업공학회지, 2022"
-  site: "https://doi.org/10.7232/jkiees.2022.48.2.227"
+  site: "https://jkiie.org/xml/32835/32835.pdf"
   img: "../img/papers/kci_ko_2022.png"   # 관련 그림 있으면 추가, 없으면 삭제 가능
   abs: >
     Due to the existence of numerous local minima, gradient descent methods face difficulties
@@ -146,4 +146,24 @@
       volume={25},
       number={1},
       year={2020}
+    }
+
+
+- short_id: "허재석2019재유입"
+  title: "재유입 다중칩 조립라인을 위한 인공신경망 기반의 다중 목적 함수 디스패치 규칙 선택 기법"
+  authors: "허재석*, 박종헌"
+  venue: "한국정보기술학회논문지, 2019"
+  site: "https://ki-it.com/xml/18418/18418.pdf"
+  img: "../img/papers/kci_rtd_2019.png"   # 관련 그림 있으면 추가, 없으면 삭제 가능
+  abs: >
+    Recently, research using machine learning have shown remarkable results in various domains, leading to the fact that leaning-based dispatchers have intrigued interest in both academia and industry. To improve the performance of the dispatcher, each dispatch decision needs to be evaluated in detail. However, existing studies on visualization techniques for manufacturing lines have mainly focused on illustrating the performance indicators or abnormal patterns. In this paper, we propose a monitoring system that displays a variety of information about the manufacturing line along with alternatives at the time of each dispatching decision being made. Furthermore, the proposed system effectively represents the cause of the idle time of resources and the change of the performance index over time.
+  bib: |
+    @article{허재석2019재유입,
+      title={재유입 다중칩 조립라인을 위한 인공신경망 기반의 다중 목적 함수 디스패치 규칙 선택 기법},
+      author={허재석 and 박종헌},
+      journal={한국정보기술학회논문지},
+      volume={17},
+      number={2},
+      pages={1--11},
+      year={2019}
     }
