@@ -17,9 +17,9 @@ members:
     list:
       - full: true
         list:
-          - name:   
+          - name: Comming Soon  
             slug:   
-            photo_url: /img/people/person.jpg
+            photo_url: /img/people/person.png
             interests: ["Scheduling"]
             email: 111@ssu.ac.kr
          
@@ -28,25 +28,25 @@ members:
     list:
       - full: true
         list:
-          - name:   
+          - name: Comming Soon
             slug:   
-            photo_url: /img/people/person.jpg
+            photo_url: /img/people/person.png
             interests: ["Simulation"]
             email: 2@ssu.ac.kr
           
       - full: true
         list:
-          - name:   
+          - name: Comming Soon   
             slug:   
-            photo_url: /img/people/person.jpg
+            photo_url: /img/people/person.png
             interests: ["Simulation"]
             email: 2@ssu.ac.kr
 
       - full: true
         list:
-          - name:   
+          - name: Comming Soon  
             slug:   
-            photo_url: /img/people/person.jpg
+            photo_url: /img/people/person.png
             interests: ["Simulation"]
             email: 2@ssu.ac.kr
           
