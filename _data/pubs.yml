@@ -158,7 +158,7 @@
   authors: "In-Beom Park, Jaeseok Huh*, Joongkyun Kim, Jonghun Park"
   venue: "IEEE Transactions on Automation Science and Engineering, 2020"
   site: "https://doi.org/10.1109/TASE.2019.2902488"
-  img: "/img/papers/park2020_tase.gif"   # 관련 그림이 있으면 추가, 없으면 삭제 가능
+  img: "/img/papers/rl_robust.png"   # 관련 그림이 있으면 추가, 없으면 삭제 가능
   abs: >
     As semiconductor manufacturers, recently, have focused on producing multichip products (MCPs), scheduling semiconductor 
     manufacturing operations become complicated due to the constraints related to reentrant production flows, sequence-dependent
@@ -183,32 +183,12 @@
     }
 
 
-- short_id: "huh2019_jim"
-  title: "A case-based reasoning approach to fast optimization of travel routes for large-scale AS/RSs"
-  authors: "Jaeseok Huh, Moon-jung Chae, Jonghun Park, Kwanho Kim*"
-  venue: "Journal of Intelligent Manufacturing, 2019"
-  site: "https://doi.org/10.1007/s10845-017-1347-0"
-  img: "../img/papers/huh2019_jim.gif"   # 관련 그림 있으면 지정, 없으면 삭제 가능
-  abs: >
-    Due to the increasing volume of stocks in modern production and logistics environments, the scale of automated storage and retrieval systems (AS/RSs) is becoming significantly large. To optimize travel routes for such large-scale AS/RSs, excessive computation complexity is unavoidable when applying existing metaheuristics due to their exhaustive nature. In this paper, we propose a case-based reasoning method for quickly optimizing travel routes. In the casebase construction phase, the method stores a large number of cases, each consisting of the optimized travel route for a particular setting. In the reasoning phase, the travel routes in the cases are then repaired to determine the optimal travel route for the current setting. Experimental results show that the proposed method successfully yields optimized travel routes in a short time compared to conventional methods, even for real-world scale problems.
-  bib: |
-    @article{huh2019jim,
-      title={A case-based reasoning approach to fast optimization of travel routes for large-scale AS/RSs},
-      author={Huh, Jaeseok and Chae, Moon-jung and Park, Jonghun and Kim, Kwanho},
-      journal={Journal of Intelligent Manufacturing},
-      volume={30},
-      number={4},
-      pages={1765--1778},
-      year={2019},
-      publisher={Springer}
-    }
-
 - short_id: "huh2020_ieeeaccess"
   title: "A Behavior optimization method for unmanned combat aerial vehicles using matrix factorization"
   authors: "Jaeseok Huh, Jonghun Park, Dongmin Shin, Yerim Choi*"
   venue: "IEEE Access, 2020"
   site: "https://doi.org/10.1109/ACCESS.2020.2997446"
-  img: "../img/papers/huh2020_ieeeaccess.gif"   # 관련 그림이 있으면 지정, 없으면 삭제 가능
+  img: "../img/papers/mf_access.png"   # 관련 그림이 있으면 지정, 없으면 삭제 가능
   abs: >
     One of the fundamental technologies for unmanned combat aerial vehicles and combat simulators
     is behavior optimization, which identifies a behavior that maximizes the probability of winning
@@ -231,4 +211,49 @@
       year={2020},
       publisher={IEEE}
     }
+
+
+
+- short_id: "huh2019hierarchical"
+  title: "A hierarchical SVM based behavior inference of human operators using a hybrid sequence kernel"
+  authors: "Jaeseok Huh, Jonghun Park, Dongmin Shin, Yerim Choi*"
+  venue: "Sustainability"
+  site: "https://www.mdpi.com/2071-1050/11/18/4836"
+  img: "../img/papers/cbr_asrs.png"   # 관련 그림 있으면 지정, 없으면 삭제 가능
+  abs: >
+    To train skilled unmanned combat aerial vehicle (UCAV) operators, it is important to establish a real-time training environment where an enemy appropriately responds to the action performed by a trainee. This can be addressed by constructing the inference method for the behavior of a UCAV operator from given simulation log data. Through this method, the virtual enemy is capable of performing actions that are highly likely to be made by an actual operator. To achieve this, we propose a hybrid sequence (HS) kernel-based hierarchical support vector machine (HSVM) for the behavior inference of a UCAV operator. Specifically, the HS kernel is designed to resolve the heterogeneity in simulation log data, and HSVM performs the behavior inference in a sequential manner considering the hierarchical structure of the behaviors of a UCAV operator. The effectiveness of the proposed method is demonstrated with the log data collected from the air-to-air combat simulator.
+  bib: |
+    @article{huh2019hierarchical,
+      title={A hierarchical SVM based behavior inference of human operators using a hybrid sequence kernel},
+      author={Huh, Jaeseok and Park, Jonghun and Shin, Dongmin and Choi, Yerim},
+      journal={Sustainability},
+      volume={11},
+      number={18},
+      pages={4836},
+      year={2019},
+      publisher={MDPI}
+    }
+    
+
+
+- short_id: "huh2019_jim"
+  title: "A case-based reasoning approach to fast optimization of travel routes for large-scale AS/RSs"
+  authors: "Jaeseok Huh, Moon-jung Chae, Jonghun Park, Kwanho Kim*"
+  venue: "Journal of Intelligent Manufacturing, 2019"
+  site: "https://doi.org/10.1007/s10845-017-1347-0"
+  img: "../img/papers/cbr_asrs.png"   # 관련 그림 있으면 지정, 없으면 삭제 가능
+  abs: >
+    Due to the increasing volume of stocks in modern production and logistics environments, the scale of automated storage and retrieval systems (AS/RSs) is becoming significantly large. To optimize travel routes for such large-scale AS/RSs, excessive computation complexity is unavoidable when applying existing metaheuristics due to their exhaustive nature. In this paper, we propose a case-based reasoning method for quickly optimizing travel routes. In the casebase construction phase, the method stores a large number of cases, each consisting of the optimized travel route for a particular setting. In the reasoning phase, the travel routes in the cases are then repaired to determine the optimal travel route for the current setting. Experimental results show that the proposed method successfully yields optimized travel routes in a short time compared to conventional methods, even for real-world scale problems.
+  bib: |
+    @article{huh2019jim,
+      title={A case-based reasoning approach to fast optimization of travel routes for large-scale AS/RSs},
+      author={Huh, Jaeseok and Chae, Moon-jung and Park, Jonghun and Kim, Kwanho},
+      journal={Journal of Intelligent Manufacturing},
+      volume={30},
+      number={4},
+      pages={1765--1778},
+      year={2019},
+      publisher={Springer}
+    }
+
 
