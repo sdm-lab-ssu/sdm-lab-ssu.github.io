@@ -17,10 +17,10 @@ members:
     list:
       - full: true
         list:
-          - name: Jaeseok Huh
-            slug: jaeseok_huh
-            photo_url: /img/people/jshuh.jpg
-            interests: ["RL", "Scheduling"]
+          - name:   
+            slug:   
+            photo_url: /img/people/person.jpg
+            interests: ["Scheduling"]
             email: 111@ssu.ac.kr
          
 
@@ -28,11 +28,27 @@ members:
     list:
       - full: true
         list:
-          - name: Jaeseok Huh
-            slug: jaeseok_huh
-            photo_url: /img/people/jshuh.jpg
-            interests: ["RL", "Scheduling"]
-            email: 111@ssu.ac.kr
+          - name:   
+            slug:   
+            photo_url: /img/people/person.jpg
+            interests: ["Simulation"]
+            email: 2@ssu.ac.kr
+          
+      - full: true
+        list:
+          - name:   
+            slug:   
+            photo_url: /img/people/person.jpg
+            interests: ["Simulation"]
+            email: 2@ssu.ac.kr
+
+      - full: true
+        list:
+          - name:   
+            slug:   
+            photo_url: /img/people/person.jpg
+            interests: ["Simulation"]
+            email: 2@ssu.ac.kr
           
 
 
