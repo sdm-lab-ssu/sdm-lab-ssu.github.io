@@ -64,9 +64,7 @@ members:
           
 
      
-          
-
-      
+                
 ---
 
 <div class="row">
