@@ -108,7 +108,7 @@ members:
                   {% endif %}
                 {% else %}
                   {% if member.interests %}
-                    <div style="font-size:0.95em; color:#666;">{{ member.interests | join: ", " }}</div>
+                    <div style="font-size:0.95em; color:#666;"><b> Interest: </b> {{ member.interests | join: ", " }}</div>
                   {% elsif member.current %}
                     <div style="font-size:0.95em; color:#666;">Current: {{ member.current }}</div>
                   {% endif %}
