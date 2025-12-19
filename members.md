@@ -81,7 +81,7 @@ members:
               {% if member.slug %}{% assign link_url = '/members/' | append: member.slug | append: '/' %}{% endif %}
               {% if member.web_url and link_url == nil %}{% assign link_url = member.web_url %}{% endif %}
 
-              <div class="col-12 col-md-4 text-center member-col" style="margin-bottom:22px;">
+              <div class="col-xs-12 col-sm-4 text-center member-col" style="margin-bottom:22px;">
                 {% if link_url %}<a href="{{ link_url | relative_url }}">{% endif %}
                   <img class="img-responsive"
                        src="{{ member.photo_url | relative_url }}"
