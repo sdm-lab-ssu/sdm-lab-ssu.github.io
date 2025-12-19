@@ -135,7 +135,7 @@
   authors: "허재석*, 박종헌"
   venue: "전자거래학회지, 2020"
   site: "http://calsec.or.kr/jsebs/index.php/jsebs/article/view/260"
-  img: "../img/papers/kci_ko_2022.png"   # 관련 그림 있으면 추가, 없으면 삭제 가능
+  img: "../img/papers/kci_monitor_2020.png"   # 관련 그림 있으면 추가, 없으면 삭제 가능
   abs: >
     Recently, research using machine learning have shown remarkable results in various domains, leading to the fact that leaning-based dispatchers have intrigued interest in both academia and industry. To improve the performance of the dispatcher, each dispatch decision needs to be evaluated in detail. However, existing studies on visualization techniques for manufacturing lines have mainly focused on illustrating the performance indicators or abnormal patterns. In this paper, we propose a monitoring system that displays a variety of information about the manufacturing line along with alternatives at the time of each dispatching decision being made. Furthermore, the proposed system effectively represents the cause of the idle time of resources and the change of the performance index over time.
   bib: |
