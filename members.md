@@ -13,54 +13,49 @@ members:
   #            photo_url: /img/people/jshuh.jpg
   #            interests: ["RL", "Scheduling"]
           
+
   - name: Master's Students
     list:
       - full: true
         list:
-          - name: Comming Soon  
-            slug:   
+          - name: Coming Soon
+            slug:
             photo_url: /img/people/person.png
             interests: ["Scheduling"]
             email: 111@ssu.ac.kr
-         
 
   - name: Undergraduate Students
     list:
       - full: true
         list:
-          - name: Comming Soon
-            slug:   
-            photo_url: /img/people/person.png
-            interests: ["Simulation"]
-            email: 2@ssu.ac.kr
-          
-      - full: true
-        list:
-          - name: Comming Soon   
-            slug:   
+          - name: Coming Soon
+            slug:
             photo_url: /img/people/person.png
             interests: ["Simulation"]
             email: 2@ssu.ac.kr
 
-      - full: true
-        list:
-          - name: Comming Soon  
-            slug:   
+          - name: Coming Soon
+            slug:
             photo_url: /img/people/person.png
             interests: ["Simulation"]
             email: 2@ssu.ac.kr
-          
 
-
-  # # - name: Alumni
-  # #   web_url: https://slurm-lab-usc.github.io/alumni/
+          - name: Coming Soon
+            slug:
+            photo_url: /img/people/person.png
+            interests: ["Simulation"]
+            email: 2@ssu.ac.kr
 
   - name: Alumni
     list:
-      - name: Gwangjong Ko
-        photo_url: /img/people/person.png
-        current: "Korea University"
-        # slug: jaeseok_huh   # (선택) 내부 상세를 만들려면 추가
+      - full: true
+        list:
+          - name: Gwangjong Ko
+            photo_url: /img/people/person.png
+            current: "Korea University"
+            slug:
+---
+
           
 
      
