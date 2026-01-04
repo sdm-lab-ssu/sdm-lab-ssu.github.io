@@ -49,11 +49,14 @@ members:
   - name: Alumni
     list:
       - full: true
-        list:
+          - name: Dasol Kim
+            photo_url: /img/people/dskim.jpg
+            current: "(주) 프로텍"
+           
           - name: Gwangjong Ko
             photo_url: /img/people/gjko.jpg
             current: "Korea University"
-            slug:
+            
 ---
 
               
