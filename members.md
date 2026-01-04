@@ -22,7 +22,7 @@ members:
             slug:
             photo_url: /img/people/person.png
             interests: ["Scheduling"]
-            email: 111@ssu.ac.kr
+            email: 
 
   - name: Undergraduate Students
     list:
@@ -50,9 +50,13 @@ members:
     list:
       - full: true
         list:
+          - name: Hyungchan Shin
+            photo_url: /img/people/hcshin.jpg
+            current: "Neurocore"
+
           - name: Dasol Kim
             photo_url: /img/people/dskim.jpg
-            current: "(주) 프로텍"
+            current: "Protec"
            
           - name: Gwangjong Ko
             photo_url: /img/people/gjko.jpg
