@@ -20,7 +20,7 @@ members:
         list:
           - name: Coming Soon
             slug:
-            photo_url: /img/people/jshuh.png
+            photo_url: /img/people/jshuh.jpg
             interests: ["Scheduling"]
             email: 111@ssu.ac.kr
 
@@ -49,6 +49,7 @@ members:
   - name: Alumni
     list:
       - full: true
+        list:
           - name: Dasol Kim
             photo_url: /img/people/dskim.jpg
             current: "(주) 프로텍"
