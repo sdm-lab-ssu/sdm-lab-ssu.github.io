@@ -66,67 +66,68 @@ members:
      
                 
 ---
+<div id="members-page">
+  <div class="row">
+    {% for big_group in page.members %}
+      <h1>{{ big_group.name }}</h1>
+      {% for group in big_group.list %}
+        {% if group.list and group.list.size > 0 %}
+          {% if group.name %}<h2 style="text-align:left; margin-bottom:20px;">{{ group.name }}</h2>{% endif %}
 
-<div class="row">
-  {% for big_group in page.members %}
-    <h1>{{ big_group.name }}</h1>
-    {% for group in big_group.list %}
-      {% if group.list and group.list.size > 0 %}
-        {% if group.name %}<h2 style="text-align:left; margin-bottom:20px;">{{ group.name }}</h2>{% endif %}
+            {% if group.full %}
+              <div class="member-list">
+                {% for member in group.list %}
+                  {% assign link_url = nil %}
+                  {% if member.slug %}{% assign link_url = '/members/' | append: member.slug | append: '/' %}{% endif %}
+                  {% if member.web_url and link_url == nil %}{% assign link_url = member.web_url %}{% endif %}
 
-          {% if group.full %}
-            <div class="member-list">
-              {% for member in group.list %}
-                {% assign link_url = nil %}
-                {% if member.slug %}{% assign link_url = '/members/' | append: member.slug | append: '/' %}{% endif %}
-                {% if member.web_url and link_url == nil %}{% assign link_url = member.web_url %}{% endif %}
-
-                <div class="member-item">
-                  <div class="member-photo">
-                    {% if link_url %}<a href="{{ link_url | relative_url }}">{% endif %}
-                      <img src="{{ member.photo_url | relative_url }}"
-                          alt="{{ member.name }}">
-                    {% if link_url %}</a>{% endif %}
-                  </div>
-
-                  <div class="member-info">
-                    <div class="member-name">
-                      {% if link_url %}<a href="{{ link_url | relative_url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}
+                  <div class="member-item">
+                    <div class="member-photo">
+                      {% if link_url %}<a href="{{ link_url | relative_url }}">{% endif %}
+                        <img src="{{ member.photo_url | relative_url }}"
+                            alt="{{ member.name }}">
+                      {% if link_url %}</a>{% endif %}
                     </div>
 
-                    {% if member.email %}
-                      <div class="member-email">
-                        <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+                    <div class="member-info">
+                      <div class="member-name">
+                        {% if link_url %}<a href="{{ link_url | relative_url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}
                       </div>
-                    {% endif %}
 
-                    {% if big_group.name == "Alumni" %}
-                      {% if member.current %}
-                        <div class="member-meta"><b>Current:</b> {{ member.current }}</div>
-                      {% elsif member.interests %}
-                        <div class="member-meta"><b>Interest:</b> {{ member.interests | join: ", " }}</div>
+                      {% if member.email %}
+                        <div class="member-email">
+                          <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+                        </div>
                       {% endif %}
-                    {% else %}
-                      {% if member.interests %}
-                        <div class="member-meta"><b>Interest:</b> {{ member.interests | join: ", " }}</div>
-                      {% elsif member.current %}
-                        <div class="member-meta"><b>Current:</b> {{ member.current }}</div>
-                      {% endif %}
-                    {% endif %}
 
-                    {% if member.bio %}
-                      <div class="member-bio">{{ member.bio }}</div>
-                    {% endif %}
+                      {% if big_group.name == "Alumni" %}
+                        {% if member.current %}
+                          <div class="member-meta"><b>Current:</b> {{ member.current }}</div>
+                        {% elsif member.interests %}
+                          <div class="member-meta"><b>Interest:</b> {{ member.interests | join: ", " }}</div>
+                        {% endif %}
+                      {% else %}
+                        {% if member.interests %}
+                          <div class="member-meta"><b>Interest:</b> {{ member.interests | join: ", " }}</div>
+                        {% elsif member.current %}
+                          <div class="member-meta"><b>Current:</b> {{ member.current }}</div>
+                        {% endif %}
+                      {% endif %}
+
+                      {% if member.bio %}
+                        <div class="member-bio">{{ member.bio }}</div>
+                      {% endif %}
+                    </div>
                   </div>
-                </div>
-              {% endfor %}
-            </div>
-          {% endif %}
-        
-        <br>
-      {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          
+          <br>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
+  </div>
 </div>
 
 
