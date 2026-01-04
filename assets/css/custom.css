@@ -173,9 +173,9 @@
 
 /* Photo box (Default = PC/Tablet) */
 #members-page .member-photo{
-  flex: 0 0 180px;
-  width: 180px;
-  height: 180px;
+  flex: 0 0 200px;
+  width: 200px;
+  height: 200px;
   border-radius: 12px;
   background: #f4f4f4;
   display: flex;
