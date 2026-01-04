@@ -151,3 +151,65 @@
 .alumni-job {
   grid-area: job;
 }
+
+
+/* Members list layout: photo left, info right */
+.member-list { margin-top: 10px; }
+
+.member-item{
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.member-photo{
+  flex: 0 0 140px;
+}
+
+.member-photo img{
+  width: 140px;
+  height: 140px;        /* 사진 비율 통일 */
+  object-fit: cover;    /* 얼굴 중심으로 꽉 차게 */
+  border-radius: 12px;
+  display: block;
+}
+
+.member-info{ flex: 1 1 auto; }
+
+.member-name{
+  font-size: 1.25em;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-top: 4px;
+}
+
+.member-email{
+  margin-top: 6px;
+  font-size: 0.98em;
+}
+
+.member-meta{
+  margin-top: 8px;
+  font-size: 0.98em;
+  color: #666;
+}
+
+.member-bio{
+  margin-top: 10px;
+  font-size: 1.0em;
+  color: #444;
+}
+
+/* Mobile: stack vertically */
+@media (max-width: 767px){
+  .member-item{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .member-photo{ flex: 0 0 auto; }
+  .member-photo img{ width: 160px; height: 160px; }
+  .member-info{ width: 100%; }
+}
