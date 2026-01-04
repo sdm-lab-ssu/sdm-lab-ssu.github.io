@@ -51,14 +51,12 @@ members:
       - full: true
         list:
           - name: Gwangjong Ko
-            photo_url: /img/people/person.png
+            photo_url: /img/people/gjko.jpg
             current: "Korea University"
             slug:
 ---
 
-          
-
-     
+              
                 
 ---
 <div id="members-page">
