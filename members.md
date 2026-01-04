@@ -55,12 +55,12 @@ members:
   # # - name: Alumni
   # #   web_url: https://slurm-lab-usc.github.io/alumni/
 
-  # - name: Alumni
-  #   list:
-  #     - name: Jaeseok Huh
-  #       photo_url: /img/people/jshuh.jpg
-  #       current: "AutoX"
-  #       slug: jaeseok_huh   # (선택) 내부 상세를 만들려면 추가
+  - name: Alumni
+    list:
+      - name: Gwangjong Ko
+        photo_url: /img/people/person.png
+        current: "Korea University"
+        # slug: jaeseok_huh   # (선택) 내부 상세를 만들려면 추가
           
 
      
@@ -86,7 +86,7 @@ members:
                   <img class="img-responsive"
                        src="{{ member.photo_url | relative_url }}"
                        alt="{{ member.name }}"
-                       style="width:180px; height:180px; object-fit:cover; border-radius:12px;">
+                       style="width:180px; height:200px; object-fit:cover; border-radius:12px;">
                 {% if link_url %}</a>{% endif %}
 
                 <div style="margin-top:8px; font-weight:700;">{{ member.name }}</div>
