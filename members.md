@@ -20,7 +20,7 @@ members:
         list:
           - name: Coming Soon
             slug:
-            photo_url: /img/people/jshuh.jpg
+            photo_url: /img/people/person.png
             interests: ["Scheduling"]
             email: 111@ssu.ac.kr
 
