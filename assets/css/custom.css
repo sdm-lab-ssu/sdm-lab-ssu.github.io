@@ -317,3 +317,21 @@
   display: none !important;
 }
 
+/* Fix weird hover tint around "Members" text */
+.navbar-custom li.navlinks-container > a.navlinks-parent:hover,
+.navbar-custom li.navlinks-container > a.navlinks-parent:focus{
+  /* hover text color는 유지 */
+  color: rgb(111, 219, 255) !important;
+
+  /* 배경을 아예 투명으로 (상단바랑 완전 동일하게) */
+  background-color: transparent !important;
+  background-image: none !important;
+
+  /* 글씨 주변 "묘한 색"을 만드는 요소들 제거 */
+  box-shadow: none !important;
+  text-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+
