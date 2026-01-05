@@ -25,7 +25,7 @@ navbar-links:
   Members:
     - Faculty: "faculty"
     - Students: "members"
-  # Research Areas: "areas"
+  Research Areas: "areas"
   Publications: "publications"
   # Lab Photos: "photos"
   # Other:

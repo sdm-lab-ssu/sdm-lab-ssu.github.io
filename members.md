@@ -51,7 +51,11 @@ members:
     list:
       - full: true
         list:
-          - name: Hyungchan Shin
+         - name: Geonwon Lee
+            photo_url: /img/people/gwlee.png
+            current: "Eonetechnology"
+
+         - name: Hyungchan Shin
             photo_url: /img/people/hcshin.jpg
             current: "Neurocore"
 
