@@ -235,3 +235,10 @@
     height: 150px;
   }
 }
+
+/* Navbar dropdown on hover (desktop only) */
+@media (min-width: 768px){
+  .navbar-nav .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+}

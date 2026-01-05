@@ -1,8 +1,10 @@
+
 ---
 layout: page
 title: Members
 subtitle:
 members:
+permalink: /members/
 
   # - name: PhD Students
   #   list:
