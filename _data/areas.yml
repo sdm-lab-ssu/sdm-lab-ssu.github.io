@@ -12,19 +12,23 @@
     - "Robust and real-time decision support"
   tags: ["scheduling", "dispatching", "semiconductor", "optimization"]
 
-- key: rl_for_operations
-  title: Reinforcement Learning for Operations
-  tagline: "Learning policies for sequential decision problems"
-  image: /img/areas/rl.jpg
+- key: learning_heuristics
+  title: Reinforcement Learning & Metaheuristics for Optimization
+  tagline: "Learning and search-based approaches for complex decision problems"
+  image: /img/areas/rl_meta.jpg
   description: >
-    We study reinforcement learning approaches for sequential decision-making problems
-    in industrial and operational domains. Our research includes robust RL and hybrid
-    learning-optimization strategies for practical deployment.
+    We study both reinforcement learning (RL) and metaheuristics as core optimization paradigms.
+    While scheduling and dispatching remain our primary application domains, we are equally
+    interested in the methodologies themselves — improving their robustness, scalability, and
+    practical usability — and applying them to broader decision-making and optimization problems.
+    We also explore hybrid approaches that combine learning-based policies with heuristic search.
   topics:
-    - "RL for scheduling and resource allocation"
-    - "Robust reinforcement learning"
-    - "Hybrid RL + optimization methods"
-  tags: ["rl", "reinforcement-learning", "drl", "robust-rl"]
+    - "Reinforcement learning for sequential decision making"
+    - "Metaheuristics (GA/PSO/SA) for combinatorial optimization"
+    - "Hybrid RL + heuristic search / optimization"
+    - "Beyond scheduling: applying optimization methods to broader domains"
+  tags: ["rl", "reinforcement-learning", "drl", "metaheuristics", "ga", "pso", "hybrid-optimization"]
+
 
 - key: data_driven_ai
   title: Data-driven AI & Industrial Analytics
