@@ -242,3 +242,14 @@
     display: block;
   }
 }
+
+/* Hide dropdown caret (▼) in navbar */
+.navbar-nav .dropdown-toggle .caret {
+  display: none !important;
+}
+
+/* Some themes add caret using :after */
+.navbar-nav .dropdown-toggle:after {
+  display: none !important;
+  content: none !important;
+}

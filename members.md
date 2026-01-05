@@ -1,10 +1,9 @@
-
 ---
 layout: page
 title: Members
 subtitle:
-members:
 permalink: /members/
+members:
 
   # - name: PhD Students
   #   list:
