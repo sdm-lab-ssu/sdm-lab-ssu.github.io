@@ -52,20 +52,20 @@ members:
       - full: true
         list:
          - name: Geonwon Lee
-            photo_url: /img/people/gwlee.png
-            current: "Eonetechnology"
+           photo_url: /img/people/gwlee.png
+           current: "Eonetechnology"
 
          - name: Hyungchan Shin
-            photo_url: /img/people/hcshin.jpg
-            current: "Neurocore"
+           photo_url: /img/people/hcshin.jpg
+           current: "Neurocore"
 
-          - name: Dasol Kim
-            photo_url: /img/people/dskim.jpg
-            current: "Protec"
+         - name: Dasol Kim
+           photo_url: /img/people/dskim.jpg
+           current: "Protec"
            
-          - name: Gwangjong Ko
-            photo_url: /img/people/gjko.jpg
-            current: "Korea University"
+         - name: Gwangjong Ko
+           photo_url: /img/people/gjko.jpg
+           current: "Korea University"
             
 ---
 
