@@ -243,14 +243,9 @@
   }
 }
 
-/* Hide dropdown caret (▼) in navbar - Bootstrap 3 */
-.navbar-nav > li.dropdown > a .caret {
+/* Remove dropdown arrow from Beautiful Jekyll nav */
+.navbar-custom .navlinks-parent:after {
+  content: "" !important;
   display: none !important;
 }
 
-/* If theme adds caret via pseudo elements, hide them too */
-.navbar-nav > li.dropdown > a:after,
-.navbar-nav > li.dropdown > a:before {
-  content: none !important;
-  display: none !important;
-}
