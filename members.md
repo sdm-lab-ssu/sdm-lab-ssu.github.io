@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Members
+title: Students
 subtitle:
 permalink: /members/
 members:
