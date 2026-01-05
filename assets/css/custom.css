@@ -249,30 +249,37 @@
   display: none !important;
 }
 
-/* =======================================================
-   Fix navbar hover style consistency + dropdown bg color
-   for Beautiful Jekyll navlinks (Members dropdown)
-   ======================================================= */
-
-/* 1) Members(드롭다운 부모)도 Home/Publication과 동일한 hover 효과 */
-.navbar-custom li.navlinks-container > a.navlinks-parent {
-  color: #fff !important;                 /* 기본 상태: 다른 메뉴처럼 흰색 */
+/* ===== Navbar + Dropdown theme sync (FINAL) ===== */
+:root{
+  --nav-bg: rgb(0, 110, 147);            /* top navbar background */
+  --nav-hover-text: rgb(111, 219, 255);  /* hover text color */
+  --nav-hover-bg: rgba(255, 255, 255, 0.12);
 }
 
-/* Home/Publication에 적용되는 hover 효과를 Members에도 동일 적용 */
-.navbar-custom li.navlinks-container > a.navlinks-parent:hover,
-.navbar-custom li.navlinks-container > a.navlinks-parent:focus {
-  /* 배경 hover 효과 (Home/Publication처럼 살짝 밝아지는 느낌) */
-  background-color: rgba(255,255,255,0.12) !important;
-
-  /* 글자색 hover 효과 (Home/Publication처럼 연녹색 느낌) */
-  color: #b8f1b8 !important;
-}
-
-/* 2) 드롭다운 배경색을 상단 navbar와 동일하게 (남색 덮어쓰기 무력화) */
-.navbar-custom li.navlinks-container .navlinks-children {
-  background-color: inherit !important;   /* navbar 배경색 그대로 */
+/* 1) Top navbar background force (in case other CSS overrides) */
+.navbar-custom{
+  background-color: var(--nav-bg) !important;
   background-image: none !important;
+}
+
+/* 2) Members (dropdown parent) behaves like other nav items */
+.navbar-custom li.navlinks-container > a.navlinks-parent{
+  color: #fff !important;
+  background: transparent !important;
+}
+
+.navbar-custom li.navlinks-container > a.navlinks-parent:hover,
+.navbar-custom li.navlinks-container > a.navlinks-parent:focus{
+  background-color: var(--nav-hover-bg) !important;
+  color: var(--nav-hover-text) !important;
+}
+
+/* 3) Dropdown background = EXACT SAME as navbar (never transparent / never gray) */
+.navbar-custom li.navlinks-container .navlinks-children{
+  background-color: var(--nav-bg) !important;
+  background-image: none !important;
+  opacity: 1 !important;
+
   border: 0 !important;
   border-radius: 10px;
   box-shadow: 0 10px 22px rgba(0,0,0,0.22);
@@ -280,9 +287,9 @@
   min-width: 180px;
 }
 
-/* 3) 드롭다운 항목( Faculty / Students ) 기본 상태도 통일 */
-.navbar-custom li.navlinks-container .navlinks-children a {
-  background-color: transparent !important;  /* 투명(=부모 배경 보이게) */
+/* 4) Dropdown items */
+.navbar-custom li.navlinks-container .navlinks-children a{
+  background-color: transparent !important;
   color: #fff !important;
   font-size: 16px;
   font-weight: 400;
@@ -292,23 +299,21 @@
   display: block;
 }
 
-/* 4) 드롭다운 항목 hover 시에도 "투명해져서 이상해지는 현상" 방지
-      -> navbar와 같은 계열의 hover 느낌만 주기 */
+/* 5) Dropdown items hover (same as navbar hover style) */
 .navbar-custom li.navlinks-container .navlinks-children a:hover,
-.navbar-custom li.navlinks-container .navlinks-children a:focus {
-  background-color: rgba(255,255,255,0.12) !important;
-  color: #b8f1b8 !important;              /* 상단 메뉴 hover 색과 동일 */
+.navbar-custom li.navlinks-container .navlinks-children a:focus{
+  background-color: var(--nav-hover-bg) !important;
+  color: var(--nav-hover-text) !important;
 }
 
-/* 5) 구분선 */
-.navbar-custom li.navlinks-container .navlinks-children a + a {
+/* 6) Divider */
+.navbar-custom li.navlinks-container .navlinks-children a + a{
   border-top: 1px solid rgba(255,255,255,0.12);
 }
 
-/* 6) ▼ 제거 유지 */
-.navbar-custom .navlinks-parent:after {
+/* 7) Remove dropdown arrow (▼) */
+.navbar-custom .navlinks-parent:after{
   content: "" !important;
   display: none !important;
 }
-
 
