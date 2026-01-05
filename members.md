@@ -32,20 +32,15 @@ members:
           - name: Coming Soon
             slug:
             photo_url: /img/people/person.png
-            interests: ["Simulation"]
+            interests: ["Simulation", "Metaheuristics"]
             email: 2@ssu.ac.kr
 
           - name: Coming Soon
             slug:
             photo_url: /img/people/person.png
-            interests: ["Simulation"]
+            interests: ["Simulation", "Scheduling"]
             email: 2@ssu.ac.kr
 
-          - name: Coming Soon
-            slug:
-            photo_url: /img/people/person.png
-            interests: ["Simulation"]
-            email: 2@ssu.ac.kr
 
   - name: Alumni
     list:

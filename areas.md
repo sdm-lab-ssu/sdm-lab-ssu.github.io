@@ -2,6 +2,29 @@
 layout: page
 title: Research Areas
 subtitle:
+permalink: /areas/
+---
+
+<div class="sim-callout">
+  <b>Core Philosophy:</b> All of our research is grounded in <b>simulation</b> — we validate ideas in simulated environments
+  before moving toward real-world deployment and decision support.
+</div>
+
+Our research focuses on developing <b>intelligent decision-making methods</b> for complex industrial systems.
+We integrate <b>optimization</b>, <b>reinforcement learning</b>, and <b>data-driven machine learning</b> to build practical solutions
+for scheduling, simulation, and operational planning.
+
+<div class="areas-grid">
+{% for area in site.data.areas %}
+  {% include area.html %}
+{% endfor %}
+</div>
+
+
+<!-- ---
+layout: page
+title: Research Areas
+subtitle:
 ---
 
 Many of our research projects are in one of the following general themes. Note that this page is still being updated to include [all publications](../publications). 
@@ -28,4 +51,4 @@ Tracking involves consistently locating an object as it moves across a scene, or
         {% endfor %}
     </table>
     </div>
-</details>
+</details> -->

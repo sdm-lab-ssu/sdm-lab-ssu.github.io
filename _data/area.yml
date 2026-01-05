@@ -1,0 +1,41 @@
+- key: scheduling_optimization
+  title: Scheduling & Optimization for Manufacturing Systems
+  tagline: "Decision-making under constraints in complex production environments"
+  image: /img/areas/scheduling.jpg
+  description: >
+    We develop scheduling and optimization methods for complex manufacturing systems
+    such as semiconductor facilities and smart factories. Our work focuses on scalable
+    and robust decision-making under realistic operational constraints.
+  topics:
+    - "Semiconductor manufacturing scheduling & dispatching"
+    - "Constraint-aware scheduling (e.g., queue-time limits)"
+    - "Robust and real-time decision support"
+  tags: ["scheduling", "dispatching", "semiconductor", "optimization"]
+
+- key: rl_for_operations
+  title: Reinforcement Learning for Operations
+  tagline: "Learning policies for sequential decision problems"
+  image: /img/areas/rl.jpg
+  description: >
+    We study reinforcement learning approaches for sequential decision-making problems
+    in industrial and operational domains. Our research includes robust RL and hybrid
+    learning-optimization strategies for practical deployment.
+  topics:
+    - "RL for scheduling and resource allocation"
+    - "Robust reinforcement learning"
+    - "Hybrid RL + optimization methods"
+  tags: ["rl", "reinforcement-learning", "drl", "robust-rl"]
+
+- key: data_driven_ai
+  title: Data-driven AI & Industrial Analytics
+  tagline: "Machine learning models for prediction and decision support"
+  image: /img/areas/ml.jpg
+  description: >
+    We apply machine learning to industrial and operational datasets to support
+    prediction, classification, and data-driven decision making. This includes time-series
+    learning and practical analytics systems.
+  topics:
+    - "Time-series representation learning"
+    - "Semi-supervised / contrastive learning"
+    - "Predictive analytics and decision support"
+  tags: ["machine-learning", "time-series", "contrastive-learning"]

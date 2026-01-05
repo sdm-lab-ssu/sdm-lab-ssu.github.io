@@ -1,15 +1,35 @@
-<div class="area">
-    <h1>{{ area.title }}</h1>
-    <p class="area-blurb">{{ area.blurb }}</p>
-    <details class="area-pubs">
-        <summary style="display: list-item;"><b>Relevant Publications</b></summary>
-        <div>
-            <table cellpadding="10" width="100%">
-                {% assign pubs = site.data.pubs | where: 'tags', area.tag %}
-                {% for pub in pubs %}
-                    {% include pub.html %}
-                {% endfor %}
-            </table>
-        </div>
-    </details>
+<div class="area-card" id="{{ area.key }}">
+  <div class="area-row">
+    {% if area.image %}
+      <div class="area-img">
+        <img src="{{ area.image | relative_url }}" alt="{{ area.title }}">
+      </div>
+    {% else %}
+      <div class="area-img area-img--placeholder"></div>
+    {% endif %}
+
+    <div class="area-content">
+      <h2 class="area-title">{{ area.title }}</h2>
+      {% if area.tagline %}
+        <div class="area-tagline">{{ area.tagline }}</div>
+      {% endif %}
+
+      {% if area.description %}
+        <p class="area-desc">{{ area.description }}</p>
+      {% endif %}
+
+      {% if area.topics and area.topics.size > 0 %}
+        <ul class="area-topics">
+          {% for t in area.topics %}
+            <li>{{ t }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+
+  {% comment %}
+    Publications 연결은 나중에 pubs tags가 확정되면 활성화 추천.
+    지금은 숨겨두는 게 페이지를 더 깔끔하게 만듭니다.
+  {% endcomment %}
 </div>
