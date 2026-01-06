@@ -3,11 +3,12 @@
   organization: "Wayout Co., Ltd."
   image: /img/projects/wayout_ai_reco.jpg
   tags: ["Matirx Factorization", "Recommendation", "Machine Learning", "Industrial AI"]
-  summary: "Developed an AI-driven image recognition and recommendation system for practical industrial applications."
+  summary: "고객 평점 데이터를 기반으로 Matrix Factorization 추천 모델을 적용하여 캠핑용품/장소 추천 시스템을 개발"
   details: >
-    Developed an AI-based image recognition pipeline and integrated it with a recommendation module to support
-    user-facing and business-oriented decision support. The project focused on end-to-end system development,
-    including data preprocessing, model training/inference, and deployment considerations for real-world usage.
+    아웃도어(캠핑) 용품 고객의 평점(rating) 데이터를 기반으로 개인화 추천 시스템을 구축한 프로젝트이다.
+    Matrix Factorization 기반 협업필터링을 중심으로 사용자–아이템 잠재요인을 학습하고, 캠핑용품 및 캠핑장소 추천을 수행하였다.
+    데이터 전처리, 모델 학습/추론 파이프라인 구성, 서비스 적용을 고려한 추천 결과 생성 및 운영 구조를 설계하였다.
+    사용자 업로드 사진 내 용품 인식을 위한 이미지 인식 모듈을 보조 기능으로 결합하여 추천 경험을 강화하였다.
   links: []
 
 - title: "Planning, Scheduling, and Dispatching Algorithms for Semiconductor Manufacturing"
@@ -15,21 +16,23 @@
   organization: "Gausslabs Inc. (with SK hynix)"
   image: /img/projects/gausslabs_semiconductor.jpg
   tags: ["Scheduling", "Dispatching", "Planning", "Semiconductor Manufacturing", "Optimization", "Simulation"]
-  summary: "Researched and developed algorithms for planning, scheduling, and dispatching in semiconductor manufacturing."
+  summary: "SK hynix 반도체 생산라인을 기반으로 Planning·Scheduling·Dispatching 기법을 연구하고 강화학습 기반 알고리즘을 개발"
   details: >
-    Conducted research and development on planning, scheduling, and dispatching methods for semiconductor
-    manufacturing operations in collaboration with SK hynix. The work emphasized practical constraints and
-    industrial scalability, with a simulation-first approach to validate algorithmic performance and robustness.
+    SK하이닉스 반도체 생산라인을 대상으로 Planning·Scheduling·Dispatching 기법을 연구한 프로젝트이다.
+    공정 특성과 제약을 반영한 생산 시뮬레이터를 구축하고, 다양한 운영 정책과 알고리즘의 성능을 시뮬레이션 기반으로 평가하였다.
+    Proof of Concept(POC) 단계에서 Q-time 제약이 존재하는 생산환경에 대해 강화학습 기반 Scheduling/Dispatching 알고리즘을 적용하였다.
+    설비 가동률을 향상시키고 Q-time 제약 위반 Lot 수를 최소화하는 결과를 성공적으로 도출하였다.
   links: []
 
 - title: "메타휴리스틱과 심층강화학습을 이용한 실시간 제조라인 일정계획 수립 기법"
   period: "Mar 2020 — Feb 2023"
   organization: "National Research Foundation of Korea (NRF)"
   image: /img/projects/nrf_rl_meta_scheduling.jpg
-  tags: ["Metaheuristics", "Reinforcement Learning", "Deep RL", "Scheduling", "Optimization", "Real-time Control", "Simulation"]
-  summary: "Developed real-time production scheduling methods combining metaheuristics and deep reinforcement learning."
+  tags: ["Scheduling", "Metaheuristics", "Deep RL", "Simulation", "Optimization"]
+  summary: "제조라인 시뮬레이션을 기반으로 메타휴리스틱과 심층강화학습을 결합한 실시간 일정계획 기법을 개발"
   details: >
-    본 연구는 메타휴리스틱과 심층강화학습을 결합해 실시간 제조라인 일정계획 기법을 개발합니다.
-    학습 기반 의사결정의 장점과 탐색 기반 최적화의 강점을 함께 활용하여, 빠르고 안정적인 스케줄링을 목표로 합니다.
-    시뮬레이션 기반 검증을 통해 다양한 생산 조건과 교란 상황에서도 강건한 정책을 설계합니다.
+    대규모·복잡 제약을 갖는 제조라인 일정계획 문제를 대상으로 한 실시간 스케줄링 방법론 개발 과제이다.
+    제조라인 시뮬레이터를 구축하고 상태/행동/보상 구조를 설계하여 심층강화학습 기반 의사결정 모델을 학습하였다.
+    학습 안정성 및 해 품질 향상을 위해 메타휴리스틱 탐색을 결합하고, 하이브리드 최적화 전략을 통해 빠른 재계획을 지원하였다.
+    다양한 생산 조건 및 교란 상황(고장, 공정 변동 등)에서도 성능을 유지하는 강건한 스케줄링 정책 설계를 목표로 하였다.
   links: []
