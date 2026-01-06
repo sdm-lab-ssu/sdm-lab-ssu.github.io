@@ -430,4 +430,141 @@
   font-size: 1.05em;
 }
 
+/* ===== Project details (collapsible abstract style) ===== */
 
+.project-details{
+  margin-top: 12px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  padding-top: 10px;
+}
+
+.project-details summary{
+  cursor: pointer;
+  list-style: none;           /* 기본 삼각형 제거 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.project-details summary::-webkit-details-marker{
+  display: none;              /* 크롬 기본 마커 제거 */
+}
+
+.project-summary{
+  color: #333;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.project-toggle{
+  font-size: 0.92em;
+  font-weight: 800;
+  color: rgb(0, 110, 147);
+  white-space: nowrap;
+}
+
+.project-details[open] .project-toggle{
+  color: rgb(111, 219, 255);
+}
+
+/* 펼쳐진 상세 텍스트 */
+.project-desc{
+  margin-top: 10px;
+  color: #333;
+  line-height: 1.65;
+}
+
+/* links spacing when open */
+.project-details .project-links{
+  margin-top: 12px;
+}
+
+/* ===== Projects (data-driven cards) ===== */
+
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 16px;
+}
+
+.project-card{
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 16px;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img{
+  width: 100%;
+  height: 160px;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+
+.project-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-body{
+  padding: 16px;
+}
+
+.project-title{
+  font-weight: 800;
+  font-size: 1.15em;
+  line-height: 1.35;
+}
+
+.project-period{
+  margin-top: 6px;
+  color: #666;
+  font-size: 0.95em;
+}
+
+.project-tags{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.project-tag{
+  font-size: 0.85em;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(0, 110, 147, 0.10);
+  color: rgb(0, 110, 147);
+  font-weight: 600;
+}
+
+.project-links{
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-link{
+  text-decoration: none !important;
+  font-weight: 700;
+  color: rgb(0, 110, 147);
+}
+
+.project-link:hover{
+  color: rgb(111, 219, 255);
+}
+
+/* Responsive */
+@media (max-width: 991px){
+  .projects-grid{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 767px){
+  .projects-grid{ grid-template-columns: 1fr; }
+}

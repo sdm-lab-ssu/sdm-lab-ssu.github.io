@@ -1,0 +1,49 @@
+<div class="project-card">
+  {% if project.image %}
+    <div class="project-img">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+    </div>
+  {% endif %}
+
+  <div class="project-body">
+    <div class="project-title">{{ project.title }}</div>
+
+    {% if project.period %}
+      <div class="project-period">{{ project.period }}</div>
+    {% endif %}
+
+    {% if project.tags %}
+      <div class="project-tags">
+        {% for t in project.tags %}
+          <span class="project-tag">{{ t }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% comment %}
+      Collapsible details (abstract-like)
+    {% endcomment %}
+    {% if project.summary or project.details %}
+      <details class="project-details">
+        <summary>
+          <span class="project-summary">
+            {{ project.summary | default: "View details" }}
+          </span>
+          <span class="project-toggle">Details</span>
+        </summary>
+
+        {% if project.details %}
+          <div class="project-desc">{{ project.details }}</div>
+        {% endif %}
+
+        {% if project.links %}
+          <div class="project-links">
+            {% for l in project.links %}
+              <a class="project-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </details>
+    {% endif %}
+  </div>
+</div>

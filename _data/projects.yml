@@ -1,0 +1,35 @@
+- title: "AI-based Image Recognition & Recommendation System"
+  period: "May 2024 — Jun 2024"
+  organization: "Wayout Co., Ltd."
+  image: /img/projects/wayout_ai_reco.jpg
+  tags: ["Computer Vision", "Recommendation", "Machine Learning", "Industrial AI"]
+  summary: "Developed an AI-driven image recognition and recommendation system for practical industrial applications."
+  details: >
+    Developed an AI-based image recognition pipeline and integrated it with a recommendation module to support
+    user-facing and business-oriented decision support. The project focused on end-to-end system development,
+    including data preprocessing, model training/inference, and deployment considerations for real-world usage.
+  links: []
+
+- title: "Planning, Scheduling, and Dispatching Algorithms for Semiconductor Manufacturing"
+  period: "Apr 2021 — Apr 2023"
+  organization: "Gausslabs Inc. (with SK hynix)"
+  image: /img/projects/gausslabs_semiconductor.jpg
+  tags: ["Scheduling", "Dispatching", "Planning", "Semiconductor Manufacturing", "Optimization", "Simulation"]
+  summary: "Researched and developed algorithms for planning, scheduling, and dispatching in semiconductor manufacturing."
+  details: >
+    Conducted research and development on planning, scheduling, and dispatching methods for semiconductor
+    manufacturing operations in collaboration with SK hynix. The work emphasized practical constraints and
+    industrial scalability, with a simulation-first approach to validate algorithmic performance and robustness.
+  links: []
+
+- title: "Real-time Production Scheduling using Metaheuristics and Deep Reinforcement Learning"
+  period: "Mar 2020 — Feb 2023"
+  organization: "National Research Foundation of Korea (NRF)"
+  image: /img/projects/nrf_rl_meta_scheduling.jpg
+  tags: ["Metaheuristics", "Reinforcement Learning", "Deep RL", "Scheduling", "Optimization", "Real-time Control", "Simulation"]
+  summary: "Developed real-time production scheduling methods combining metaheuristics and deep reinforcement learning."
+  details: >
+    Developed real-time production scheduling techniques that combine metaheuristics (e.g., GA/PSO-style search)
+    with deep reinforcement learning. The project focused on achieving fast and robust decision-making under
+    dynamic shop-floor conditions, using simulation to evaluate scheduling policies and optimize performance.
+  links: []

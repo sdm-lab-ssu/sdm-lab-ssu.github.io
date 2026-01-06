@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Research Areas
+title: Research
 subtitle:
-permalink: /areas/
+permalink: /research/
 ---
 
 <div class="sim-callout">
@@ -11,8 +11,8 @@ permalink: /areas/
 </div>
 
 Our research focuses on developing <b>intelligent decision-making methods</b> for complex industrial systems.
-We integrate <b>optimization</b>, <b>reinforcement learning</b>, and <b>data-driven machine learning</b> to build practical solutions
-for scheduling, simulation, and operational planning.
+We integrate <b>optimization and metaheuristics</b>, <b>reinforcement learning</b>, and <b>data-driven machine learning</b>
+to build practical solutions for scheduling, simulation, and operational planning.
 
 <div class="areas-grid">
 {% for area in site.data.areas %}
@@ -20,6 +20,15 @@ for scheduling, simulation, and operational planning.
 {% endfor %}
 </div>
 
+---
+
+# Selected Projects
+
+<div class="projects-grid">
+{% for project in site.data.projects %}
+  {% include project.html %}
+{% endfor %}
+</div>
 
 <!-- ---
 layout: page
