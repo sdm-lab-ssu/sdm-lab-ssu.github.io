@@ -1,8 +1,8 @@
 # --- General options --- #
 
 # Name of website
-title: SDM Lab 
-title-img: "/img/sdmlab-logo.png"   # 투명 배경 권장 (png/svg)
+title: 
+title-img: "/img/sdmlab-logo_wide.png"   # 투명 배경 권장 (png/svg)
 
 # Short description of your site
 description: Simulation-based decision-making for smart manufacturing, scheduling, and optimization
