@@ -33,7 +33,7 @@
 - key: data_driven_ai
   title: Data-driven AI & Industrial Analytics
   tagline: "Machine learning models for prediction and decision support"
-  image: /img/areas/ml.jpg
+  image: /img/areas/ml.png
   description: >
     We apply machine learning to industrial and operational datasets to support
     prediction, classification, and data-driven decision making. This includes time-series
