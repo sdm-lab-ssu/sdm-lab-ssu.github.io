@@ -1,7 +1,7 @@
 - key: scheduling_optimization
   title: Scheduling & Optimization for Manufacturing Systems
   tagline: "Decision-making under constraints in complex production environments"
-  image: /img/areas/scheduling.jpg
+  image: /img/areas/scheduling.png
   description: >
     We develop scheduling and optimization methods for complex manufacturing systems
     such as semiconductor facilities and smart factories. Our work focuses on scalable
