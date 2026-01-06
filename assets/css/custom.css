@@ -557,3 +557,22 @@
 @media (max-width: 767px){
   .projects-grid{ grid-template-columns: 1fr; }
 }
+
+
+/* ===== Navbar brand/logo bigger ===== */
+.navbar-custom .navbar-brand{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  height: auto !important;
+}
+
+.navbar-custom .navbar-brand img{
+  height: 74px !important;   /* nav.html에서 설정한 값과 동일 */
+  width: auto !important;
+}
+
+@media (max-width: 767px){
+  .navbar-custom .navbar-brand img{
+    height: 60px !important;
+  }
+}
