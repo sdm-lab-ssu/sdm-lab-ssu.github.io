@@ -1,3 +1,12 @@
+/* =========================================================
+   Custom CSS (FINAL CLEAN VERSION)
+   - Members page layout
+   - Navbar dropdown theme sync
+   - Research Areas (cards)
+   - Projects (cards + collapsible details)
+   ========================================================= */
+
+/* ===== Jumbotron / main visuals ===== */
 .jumbotron-main {
   color: white;
   background-color: black;
@@ -9,18 +18,18 @@
 .lab-photo {
   background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%),
     url("/img/USC_Slogan.png") no-repeat center center;
-    /* url("/DavidHeld_files/rpad group pic - Aug 2020 - fix.png") no-repeat center center; */
   background-size: cover;
   background-color: black;
   min-height: 50px;
-  /* padding-top: 8%; */
   position: relative;
 }
+
 @media only screen and (max-width: 900px) {
   .lab-photo {
     background-size: contain;
   }
 }
+
 @media only screen and (max-width: 300px) {
   .lab-photo {
     background-size: contain;
@@ -30,7 +39,7 @@
 
 .main-news {
   height: 500px;
-  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02)
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
 .main-highlights {
@@ -41,6 +50,7 @@
   text-align: center;
 }
 
+/* ===== Footer ===== */
 .footer-logo {
   height: 75px;
 }
@@ -49,30 +59,27 @@
   height: inherit;
 }
 
+/* ===== Old member grid styles (kept) ===== */
 .member-col { 
   margin-bottom: 20px;
-   
   padding: 10px;
 }  
-  
+
 .member-col img {  
   height: 200px; 
   object-fit: cover;  
   display: block;  
   margin: 0 auto;  
-   
 }  
-  
+
 .member-col a {
   word-wrap: break-word;
   font-size: 16px;
-  /* color: #333;  */  
- 
   display: block;
   margin-top: 10px;
 }
 
-
+/* ===== Lab photos ===== */
 .lab-photo {  
   width: 480px;
   height: 300px;
@@ -80,24 +87,21 @@
   display: block;
   margin: 0 auto;
 }  
-  
+
 .lab_photos-col {  
   padding-bottom: 16px;
 }  
-  
+
 .photo-caption { 
-  font-size: 16px;  
-  /* color: #333;  */
+  font-size: 16px;
 }
 
 .video_embed {
   margin-top: 5px;
 }
 
-/* Lab alumni */
-#alumni {
-  /* padding-left: 50px; */
-}
+/* ===== Lab alumni ===== */
+#alumni {}
 
 #alumni-label {
   font-weight: 700;
@@ -153,7 +157,9 @@
 }
 
 
-/* ===== Members 2-column list layout (scoped) ===== */
+/* =========================================================
+   Members page: 2-column list layout (scoped)
+   ========================================================= */
 
 #members-page .member-list{
   display: flex;
@@ -236,33 +242,24 @@
   }
 }
 
-/* Navbar dropdown on hover (desktop only) */
-@media (min-width: 768px){
-  .navbar-nav .dropdown:hover .dropdown-menu{
-    display: block;
-  }
-}
 
-/* Remove dropdown arrow from Beautiful Jekyll nav */
-.navbar-custom .navlinks-parent:after {
-  content: "" !important;
-  display: none !important;
-}
+/* =========================================================
+   Navbar + Dropdown theme sync (CLEAN FINAL)
+   ========================================================= */
 
-/* ===== Navbar + Dropdown theme sync (FINAL) ===== */
 :root{
-  --nav-bg: rgb(0, 110, 147);            /* top navbar background */
+  --nav-bg: rgb(0, 110, 147);            /* navbar background */
   --nav-hover-text: rgb(111, 219, 255);  /* hover text color */
   --nav-hover-bg: rgba(255, 255, 255, 0.12);
 }
 
-/* 1) Top navbar background force (in case other CSS overrides) */
+/* Navbar background */
 .navbar-custom{
   background-color: var(--nav-bg) !important;
   background-image: none !important;
 }
 
-/* 2) Members (dropdown parent) behaves like other nav items */
+/* Parent menu (Members) same hover as other menus */
 .navbar-custom li.navlinks-container > a.navlinks-parent{
   color: #fff !important;
   background: transparent !important;
@@ -272,9 +269,15 @@
 .navbar-custom li.navlinks-container > a.navlinks-parent:focus{
   background-color: var(--nav-hover-bg) !important;
   color: var(--nav-hover-text) !important;
+
+  /* remove weird outline/shadow but keep hover bg */
+  box-shadow: none !important;
+  text-shadow: none !important;
+  border: none !important;
+  outline: none !important;
 }
 
-/* 3) Dropdown background = EXACT SAME as navbar (never transparent / never gray) */
+/* Dropdown background matches navbar */
 .navbar-custom li.navlinks-container .navlinks-children{
   background-color: var(--nav-bg) !important;
   background-image: none !important;
@@ -287,7 +290,7 @@
   min-width: 180px;
 }
 
-/* 4) Dropdown items */
+/* Dropdown items */
 .navbar-custom li.navlinks-container .navlinks-children a{
   background-color: transparent !important;
   color: #fff !important;
@@ -299,42 +302,44 @@
   display: block;
 }
 
-/* 5) Dropdown items hover (same as navbar hover style) */
+/* Dropdown hover */
 .navbar-custom li.navlinks-container .navlinks-children a:hover,
 .navbar-custom li.navlinks-container .navlinks-children a:focus{
   background-color: var(--nav-hover-bg) !important;
   color: var(--nav-hover-text) !important;
 }
 
-/* 6) Divider */
+/* Divider */
 .navbar-custom li.navlinks-container .navlinks-children a + a{
   border-top: 1px solid rgba(255,255,255,0.12);
 }
 
-/* 7) Remove dropdown arrow (▼) */
+/* Remove dropdown arrow */
 .navbar-custom .navlinks-parent:after{
   content: "" !important;
   display: none !important;
 }
 
-/* Fix weird hover tint around "Members" text */
-.navbar-custom li.navlinks-container > a.navlinks-parent:hover,
-.navbar-custom li.navlinks-container > a.navlinks-parent:focus{
-  /* hover text color는 유지 */
-  color: rgb(111, 219, 255) !important;
 
-  /* 배경을 아예 투명으로 (상단바랑 완전 동일하게) */
-  background-color: transparent !important;
-  background-image: none !important;
+/* =========================================================
+   Research page: Simulation callout
+   ========================================================= */
 
-  /* 글씨 주변 "묘한 색"을 만드는 요소들 제거 */
-  box-shadow: none !important;
-  text-shadow: none !important;
-  border: none !important;
-  outline: none !important;
+.sim-callout{
+  background: rgba(0, 110, 147, 0.08);
+  border-left: 5px solid rgb(0, 110, 147);
+  padding: 14px 16px;
+  border-radius: 12px;
+  margin: 10px 0 18px 0;
+  color: #123;
+  line-height: 1.6;
+  font-size: 1.05em;
 }
 
-/* ===== Research Areas (clean cards with images) ===== */
+
+/* =========================================================
+   Research Areas (cards with images)
+   ========================================================= */
 
 .areas-grid{
   display: flex;
@@ -418,69 +423,10 @@
   }
 }
 
-/* ===== Simulation Core Callout ===== */
-.sim-callout{
-  background: rgba(0, 110, 147, 0.08);
-  border-left: 5px solid rgb(0, 110, 147);
-  padding: 14px 16px;
-  border-radius: 12px;
-  margin: 10px 0 18px 0;
-  color: #123;
-  line-height: 1.6;
-  font-size: 1.05em;
-}
 
-/* ===== Project details (collapsible abstract style) ===== */
-
-.project-details{
-  margin-top: 12px;
-  border-top: 1px solid rgba(0,0,0,0.08);
-  padding-top: 10px;
-}
-
-.project-details summary{
-  cursor: pointer;
-  list-style: none;           /* 기본 삼각형 제거 */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-}
-
-.project-details summary::-webkit-details-marker{
-  display: none;              /* 크롬 기본 마커 제거 */
-}
-
-.project-summary{
-  color: #333;
-  font-weight: 500;
-  line-height: 1.5;
-}
-
-.project-toggle{
-  font-size: 0.92em;
-  font-weight: 800;
-  color: rgb(0, 110, 147);
-  white-space: nowrap;
-}
-
-.project-details[open] .project-toggle{
-  color: rgb(111, 219, 255);
-}
-
-/* 펼쳐진 상세 텍스트 */
-.project-desc{
-  margin-top: 10px;
-  color: #333;
-  line-height: 1.65;
-}
-
-/* links spacing when open */
-.project-details .project-links{
-  margin-top: 12px;
-}
-
-/* ===== Projects (data-driven cards) ===== */
+/* =========================================================
+   Projects (cards + collapsible details)
+   ========================================================= */
 
 .projects-grid{
   display: grid;
@@ -544,6 +490,48 @@
   font-weight: 600;
 }
 
+.project-details{
+  margin-top: 12px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  padding-top: 10px;
+}
+
+.project-details summary{
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.project-details summary::-webkit-details-marker{
+  display: none;
+}
+
+.project-summary{
+  color: #333;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.project-toggle{
+  font-size: 0.92em;
+  font-weight: 800;
+  color: rgb(0, 110, 147);
+  white-space: nowrap;
+}
+
+.project-details[open] .project-toggle{
+  color: rgb(111, 219, 255);
+}
+
+.project-desc{
+  margin-top: 10px;
+  color: #333;
+  line-height: 1.65;
+}
+
 .project-links{
   margin-top: 12px;
   display: flex;
@@ -565,6 +553,7 @@
 @media (max-width: 991px){
   .projects-grid{ grid-template-columns: repeat(2, 1fr); }
 }
+
 @media (max-width: 767px){
   .projects-grid{ grid-template-columns: 1fr; }
 }
