@@ -557,3 +557,111 @@
 @media (max-width: 767px){
   .projects-grid{ grid-template-columns: 1fr; }
 }
+
+/* ===== Faculty page ===== */
+#faculty-page .faculty-card{
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 18px;
+  background: #fff;
+  padding: 18px;
+  margin-bottom: 26px;
+}
+
+#faculty-page .faculty-top{
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+}
+
+#faculty-page .faculty-photo{
+  flex: 0 0 220px;
+  width: 220px;
+  height: 220px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#faculty-page .faculty-photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+#faculty-page .faculty-name{
+  font-size: 1.8em;
+  font-weight: 900;
+  margin-top: 2px;
+}
+
+#faculty-page .faculty-interests{
+  margin-top: 8px;
+  color: #555;
+  font-size: 1.05em;
+}
+
+#faculty-page .faculty-email{
+  margin-top: 8px;
+  font-size: 1.05em;
+}
+
+#faculty-page .faculty-links{
+  margin-top: 10px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+#faculty-page .faculty-link{
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+#faculty-page .faculty-sections{
+  margin-top: 18px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  padding-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 28px;
+}
+
+#faculty-page .faculty-section h2{
+  margin-top: 0;
+  font-size: 1.25em;
+  font-weight: 900;
+}
+
+#faculty-page .faculty-section ul{
+  margin: 10px 0 0 18px;
+  color: #333;
+  line-height: 1.7;
+}
+
+#faculty-page .faculty-note{
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: #666;
+  font-size: 0.95em;
+  font-weight: 600;
+}
+
+@media (max-width: 767px){
+  #faculty-page .faculty-top{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #faculty-page .faculty-photo{
+    width: 200px;
+    height: 200px;
+    flex: 0 0 200px;
+  }
+  #faculty-page .faculty-sections{
+    grid-template-columns: 1fr;
+  }
+}
