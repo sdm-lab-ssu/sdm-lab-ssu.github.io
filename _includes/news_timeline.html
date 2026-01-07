@@ -1,0 +1,24 @@
+<div class="lab-news">
+  <h2 class="lab-news-title">Lab News</h2>
+
+  <div class="lab-news-box">
+    <ul class="lab-news-timeline">
+      {% assign news_sorted = site.data.news | sort: "date" | reverse %}
+      {% for n in news_sorted %}
+        <li class="lab-news-item">
+          <div class="lab-news-dot"></div>
+          <div class="lab-news-content">
+            <div class="lab-news-text">
+              {% if n.url and n.url != "" %}
+                <a href="{{ n.url }}" target="_blank" rel="noopener">{{ n.text }}</a>
+              {% else %}
+                {{ n.text }}
+              {% endif %}
+            </div>
+            <div class="lab-news-date">{{ n.date | date: "%m/%d/%Y" }}</div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
