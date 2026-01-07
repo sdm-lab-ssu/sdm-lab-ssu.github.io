@@ -768,3 +768,78 @@
     max-height: 360px;
   }
 }
+
+/* =========================================================
+   Mobile-first readability pack (phones)
+   Only applies on small screens
+========================================================= */
+@media (max-width: 767px){
+
+  /* 1) 전체 기본 폰트 크기 & 줄간격 */
+  html{ font-size: 18px; }                 /* 기본 16px -> 18px */
+  body{ line-height: 1.75; }
+
+  /* 2) 페이지 컨테이너 좌우 여백 확보 (너무 좁으면 읽기 힘듦) */
+  .container,
+  .container-fluid{
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  /* 3) 페이지 제목(Research Areas, Members 등) 과하게 크게/작게 되는 문제 완화 */
+  h1{ font-size: 2.1em !important; }
+  h2{ font-size: 1.45em !important; }
+  h3{ font-size: 1.2em !important; }
+
+  /* 4) 일반 텍스트 가독성 개선 */
+  p, li{
+    font-size: 1.05em;
+  }
+
+  /* 5) 버튼/링크 터치 영역 확대 */
+  a, button{
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* 6) 카드류가 너무 촘촘하면 답답함 -> 여백 확대 */
+  .area-card,
+  .faculty-card{
+    padding: 18px !important;
+  }
+
+  /* 7) 이미지가 너무 작아지는 문제 예방 */
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px){
+
+  /* 로고 이미지 조금 키우기 */
+  .navbar-custom .navbar-brand img{
+    height: 58px !important;   /* 지금 wide 로고 기준 적당 */
+  }
+
+  /* 브랜드 영역 높이/정렬 */
+  .navbar-custom .navbar-brand{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: auto !important;
+  }
+
+  /* 햄버거 버튼(토글) 터치 영역 확대 */
+  .navbar-toggle{
+    padding: 12px 14px !important;
+    margin-top: 14px !important;
+    margin-bottom: 14px !important;
+  }
+
+  /* 모바일 메뉴 펼쳐졌을 때 글씨 크기 */
+  .navbar-custom .navbar-nav > li > a,
+  .navbar-custom .navlinks-parent{
+    font-size: 1.15em !important;
+    padding: 14px 18px !important;
+  }
+}
+
