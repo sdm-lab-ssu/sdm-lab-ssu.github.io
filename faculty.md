@@ -20,14 +20,13 @@ permalink: /faculty/
         </div>
 
         <div class="faculty-email">
-          <a href="mailto:laonhjs@gmail.com">laonhjs@gmail.com</a>
+          <a href="mailto:jshuh@ssu.ac.kr">jshuh@ssu.ac.kr</a>
         </div>
 
         <div class="faculty-links">
           <!-- 필요 없으면 지우셔도 됨 -->
-          <a class="faculty-link" href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
-          <a class="faculty-link" href="https://github.com" target="_blank" rel="noopener">GitHub</a>
-          <a class="faculty-link" href="/files/cv.pdf" target="_blank" rel="noopener">CV</a>
+          <a class="faculty-link" href="https://scholar.google.com/citations?user=0Xzd2f8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="faculty-link" href="https://laonhjs.github.io/" target="_blank" rel="noopener">GitHub</a>          
         </div>
       </div>
     </div>
@@ -77,15 +76,7 @@ permalink: /faculty/
           <li>Data Management and Analysis (TA, Fall 2014, Fall 2015)</li>
         </ul>
       </div>
-
-      <div class="faculty-section">
-        <h2>Bio</h2>
-        <p style="line-height:1.8; color:#333; margin-top:10px;">
-          I lead the Simulation-based Decision-Making (SDM) Lab. My research focuses on simulation-first
-          decision-making for complex industrial systems, with emphasis on scheduling, reinforcement learning,
-          metaheuristics, and practical optimization under real-world constraints.
-        </p>
-      </div>
+      
     </div>
   </div>
 </div>
