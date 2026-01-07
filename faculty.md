@@ -33,7 +33,7 @@ permalink: /faculty/
 
     <div class="faculty-sections">
       <div class="faculty-section">
-        <h2>학력</h2>
+        <h2>Education</h2>
         <ul>
           <li><b>Ph.D. Industrial Engineering</b>, Seoul National University (2013–2019)</li>
           <li><b>B.S. Industrial Engineering</b>, Seoul National University (2007–2013)</li>
@@ -41,7 +41,7 @@ permalink: /faculty/
       </div>
 
       <div class="faculty-section">
-        <h2>경력</h2>
+        <h2>Experience</h2>
         <ul>
           <li><b>Assistant Professor</b>, Department of Industrial and Information Systems Engineering, Soongsil University (2025–Current)</li>
           <li><b>Assistant Professor</b>, Department of Business Administration, Tech University of Korea (2019–2025)</li>
@@ -51,7 +51,7 @@ permalink: /faculty/
       </div>
 
       <div class="faculty-section">
-        <h2>학기 별 강의 교과목</h2>
+        <h2>Teaching</h2>
 
         <p class="faculty-note">(Tech University of Korea, 2019–2025)</p>
         <ul>

@@ -625,9 +625,11 @@
   margin-top: 18px;
   border-top: 1px solid rgba(0,0,0,0.08);
   padding-top: 16px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px 28px;
+
+  /* 1-column vertical layout */
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 #faculty-page .faculty-section h2{
