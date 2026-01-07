@@ -26,7 +26,7 @@ permalink: /faculty/
         <div class="faculty-links">
           <!-- 필요 없으면 지우셔도 됨 -->
           <a class="faculty-link" href="https://scholar.google.com/citations?user=0Xzd2f8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-          <a class="faculty-link" href="https://laonhjs.github.io/" target="_blank" rel="noopener">GitHub</a>          
+          <!-- <a class="faculty-link" href="https://laonhjs.github.io/" target="_blank" rel="noopener">GitHub</a>           -->
         </div>
       </div>
     </div>
