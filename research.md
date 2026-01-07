@@ -6,13 +6,13 @@ permalink: /research/
 ---
 
 <div class="sim-callout">
-  <b>Core Philosophy:</b> All of our research is grounded in <b>simulation</b> — we validate ideas in simulated environments
-  before moving toward real-world deployment and decision support.
+  <b>핵심 철학 (Core Philosophy):</b> <b>시뮬레이션 기반 의사결정 연구실(SDM Lab)</b>의 모든 연구는 시뮬레이션에서 출발합니다. 
+  이론적 아이디어가 실제 현장의 복잡한 의사결정을 효과적으로 지원할 수 있도록, 가상 환경에서 철저한 검증 과정을 거치는 것을 원칙으로 합니다.
 </div>
 
-Our research focuses on developing <b>intelligent decision-making methods</b> for complex industrial systems.
-We integrate <b>optimization and metaheuristics</b>, <b>reinforcement learning</b>, and <b>data-driven machine learning</b>
-to build practical solutions for scheduling, simulation, and operational planning.
+본 연구실은 현대의 복잡한 산업 시스템을 위한 <b>지능형 의사결정 방법론(Intelligent Decision-making)</b>을 전문적으로 연구합니다. 
+<b>최적화 및 메타휴리스틱(Optimization & Metaheuristics)</b>, <b>강화학습(Reinforcement Learning)</b>, 그리고 <b>데이터 기반 머신러닝(Data-driven ML)</b> 기술을 유기적으로 결합하여, 
+일정계획(Scheduling) 및 운영 효율화를 위한 실무 중심의 해법을 제시합니다.
 
 <div class="areas-grid">
 {% for area in site.data.areas %}

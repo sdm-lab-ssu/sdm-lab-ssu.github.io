@@ -1,45 +1,90 @@
 - key: scheduling_optimization
-  title: Scheduling & Optimization for Manufacturing Systems
-  tagline: "Decision-making under constraints in complex production environments"
+  title: 제조 시스템을 위한 일정계획 및 최적화 (Scheduling & Optimization)
+  tagline: "복잡한 생산 환경에서 제약을 고려한 의사결정"
   image: /img/areas/scheduling.png
   description: >
-    We develop scheduling and optimization methods for complex manufacturing systems
-    such as semiconductor facilities and smart factories. Our work focuses on scalable
-    and robust decision-making under realistic operational constraints.
+    반도체 공정 및 스마트 팩토리와 같이 고도로 복잡한 제조 시스템을 대상으로, 생산 효율을 극대화하기 
+    위한 일정계획(Scheduling) 및 최적화 기법을 연구합니다. 현실적인 물리적·운영적 제약 조건을 수리적으로 모델링하고, 
+    변화하는 현장 상황에서도 신속하고 강건하게(Robust) 대응할 수 있는 실무 중심의 의사결정 엔진 개발에 초점을 둡니다.
   topics:
-    - "Semiconductor manufacturing scheduling & dispatching"
-    - "Constraint-aware scheduling (e.g., queue-time limits)"
-    - "Robust and real-time decision support"
+    - "반도체 생산 스케줄링 및 지능형 디스패칭 (Semiconductor Scheduling & Dispatching)"
+    - "복합 공정 제약 기반의 수리적 최적화 (e.g., Q-time constraints)"
+    - "실시간 생산 현장 대응을 위한 의사결정 지원 시스템 (Real-time Decision Support)"
   tags: ["scheduling", "dispatching", "semiconductor", "optimization"]
 
 - key: learning_heuristics
-  title: Reinforcement Learning & Metaheuristics for Optimization
-  tagline: "Learning and search-based approaches for complex decision problems"
+  title: "학습 기반 지능형 최적화 (RL & Metaheuristics)"
+  tagline: "학습(Learning)과 탐색(Search)의 시너지를 통한 차세대 해법"
   image: /img/areas/rl_meta.jpg
   description: >
-    We study both reinforcement learning (RL) and metaheuristics as core optimization paradigms.
-    While scheduling and dispatching remain our primary application domains, we are equally
-    interested in the methodologies themselves — improving their robustness, scalability, and
-    practical usability — and applying them to broader decision-making and optimization problems.
-    We also explore hybrid approaches that combine learning-based policies with heuristic search.
+    강화학습(RL)의 동적 대응 능력과 메타휴리스틱(Metaheuristics)의 전역 탐색 능력을 결합한 차세대 최적화 패러다임을 연구합니다. 
+    기존 알고리즘으로 해결하기 어려운 대규모 조합 최적화 문제(Combinatorial Optimization)를 해결하기 위해, 학습 기반의 정책과 휴리스틱 탐색을 결합한 하이브리드(Hybrid) 접근법을 제안하며, 
+    이를 통해 다양한 산업 도메인에 즉시 적용 가능한 확장성 높은 알고리즘을 설계합니다
   topics:
-    - "Reinforcement learning for sequential decision making"
-    - "Metaheuristics (GA/PSO/SA) for combinatorial optimization"
-    - "Hybrid RL + heuristic search / optimization"
-    - "Beyond scheduling: applying optimization methods to broader domains"
+    - "순차적 의사결정 및 자율 스케줄링을 위한 강화학습 (DRL for Scheduling)"
+    - "고도화된 메타휴리스틱 알고리즘 연구 (GA, PSO, SA)"
+    - "하이브리드 지능형 최적화 기법 (Hybrid RL + Heuristic Search)"
+    - "조합 최적화 난제 해결을 위한 알고리즘 프레임워크"
   tags: ["rl", "reinforcement-learning", "drl", "metaheuristics", "ga", "pso", "hybrid-optimization"]
 
-
 - key: data_driven_ai
-  title: Data-driven AI & Industrial Analytics
-  tagline: "Machine learning models for prediction and decision support"
+  title: "데이터 기반 산업 인공지능 (Industrial AI & Analytics)"
+  tagline: "예측 및 의사결정을 위한 머신러닝 모델"
   image: /img/areas/ml.png
   description: >
-    We apply machine learning to industrial and operational datasets to support
-    prediction, classification, and data-driven decision making. This includes time-series
-    learning and practical analytics systems.
+    제조 현장 및 산업 시스템에서 발생하는 방대한 운영 데이터를 분석하여 예측(Prediction), 분류(Classification), 그리고 지능형 의사결정을 수행하는 머신러닝 모델을 연구합니다. 
+    특히 시계열(Time-series) 데이터의 특성을 반영한 표현 학습과 데이터 효율성을 극대화하는 준지도학습 기법을 활용하여, 
+    현장의 불확실성을 최소화하고 생산성을 높이는 데이터 기반의 AI 솔루션 구현에 매진하고 있습니다.
   topics:
-    - "Time-series representation learning"
-    - "Semi-supervised / contrastive learning"
-    - "Predictive analytics and decision support"
+    - "시계열 표현 학습 및 예측 분석 (Time-series Representation Learning)"
+    - "데이터 효율성 증대를 위한 준지도학습 및 대조학습 (Semi-supervised & Contrastive Learning)"
+    - "산업 현장 특화형 진단 및 예측 모델링 (Industrial Predictive Analytics)"
+    - "설비 모니터링 및 운영 지표 최적화"
   tags: ["machine-learning", "time-series", "contrastive-learning"]
+
+
+# - key: scheduling_optimization
+#   title: Scheduling & Optimization for Manufacturing Systems
+#   tagline: "Decision-making under constraints in complex production environments"
+#   image: /img/areas/scheduling.png
+#   description: >
+#     We develop scheduling and optimization methods for complex manufacturing systems
+#     such as semiconductor facilities and smart factories. Our work focuses on scalable
+#     and robust decision-making under realistic operational constraints.
+#   topics:
+#     - "Semiconductor manufacturing scheduling & dispatching"
+#     - "Constraint-aware scheduling (e.g., queue-time limits)"
+#     - "Robust and real-time decision support"
+#   tags: ["scheduling", "dispatching", "semiconductor", "optimization"]
+
+# - key: learning_heuristics
+#   title: Reinforcement Learning & Metaheuristics for Optimization
+#   tagline: "Learning and search-based approaches for complex decision problems"
+#   image: /img/areas/rl_meta.jpg
+#   description: >
+#     We study both reinforcement learning (RL) and metaheuristics as core optimization paradigms.
+#     While scheduling and dispatching remain our primary application domains, we are equally
+#     interested in the methodologies themselves — improving their robustness, scalability, and
+#     practical usability — and applying them to broader decision-making and optimization problems.
+#     We also explore hybrid approaches that combine learning-based policies with heuristic search.
+#   topics:
+#     - "Reinforcement learning for sequential decision making"
+#     - "Metaheuristics (GA/PSO/SA) for combinatorial optimization"
+#     - "Hybrid RL + heuristic search / optimization"
+#     - "Beyond scheduling: applying optimization methods to broader domains"
+#   tags: ["rl", "reinforcement-learning", "drl", "metaheuristics", "ga", "pso", "hybrid-optimization"]
+
+
+# - key: data_driven_ai
+#   title: Data-driven AI & Industrial Analytics
+#   tagline: "Machine learning models for prediction and decision support"
+#   image: /img/areas/ml.png
+#   description: >
+#     We apply machine learning to industrial and operational datasets to support
+#     prediction, classification, and data-driven decision making. This includes time-series
+#     learning and practical analytics systems.
+#   topics:
+#     - "Time-series representation learning"
+#     - "Semi-supervised / contrastive learning"
+#     - "Predictive analytics and decision support"
+#   tags: ["machine-learning", "time-series", "contrastive-learning"]
