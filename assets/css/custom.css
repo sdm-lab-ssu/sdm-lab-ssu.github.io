@@ -915,3 +915,34 @@
     font-size: 1.08em;
   }
 }
+
+@media (max-width: 767px){
+
+  /* grid → column layout */
+  .pub-grid-parent{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+  }
+
+  /* 이미지 중앙 정렬 */
+  .pub-grid-parent img{
+    max-width: 160px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* 텍스트는 전체 폭 */
+  .pub-grid-parent .pub-grid-child{
+    width: 100%;
+  }
+
+  /* 논문 설명 가독성 개선 */
+  .pub-grid-parent .pub-grid-child:last-child{
+    text-align: left;
+    font-size: 1.05em;
+    line-height: 1.65;
+  }
+}

@@ -64,7 +64,7 @@ You can also find publications on <a href="https://scholar.google.com/citations?
 </table>
 
 
-<hr style="margin:42px 0; opacity:0.25;">
+<!-- <hr style="margin:42px 0; opacity:0.25;"> -->
 
 <!-- # Patents -->
 **Patents**
