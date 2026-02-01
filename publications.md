@@ -66,7 +66,8 @@ You can also find publications on <a href="https://scholar.google.com/citations?
 
 <hr style="margin:42px 0; opacity:0.25;">
 
-# Patents
+<!-- # Patents -->
+**Patents**
 
 <div class="patents-list">
   {% assign patents_sorted = site.data.patents | sort: "date" | reverse %}
