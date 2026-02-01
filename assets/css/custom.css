@@ -843,3 +843,75 @@
   }
 }
 
+/* ===== Patents list ===== */
+
+.patents-list{
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.patent-item{
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 14px;
+  background: #fff;
+  padding: 16px;
+}
+
+.patent-title{
+  font-size: 1.12em;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.patent-title a{
+  text-decoration: none !important;
+}
+
+.patent-meta{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.patent-meta-text{
+  color: #555;
+  font-size: 0.98em;
+  line-height: 1.6;
+}
+
+/* status badge */
+.patent-badge{
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 900;
+  font-size: 0.9em;
+  line-height: 1.2;
+}
+
+/* "출원" badge */
+.patent-badge--출원{
+  background: rgba(0, 110, 147, 0.10);
+  color: rgb(0, 110, 147);
+  border: 1px solid rgba(0, 110, 147, 0.35);
+}
+
+/* "등록" badge */
+.patent-badge--등록{
+  background: rgba(46, 204, 113, 0.12);
+  color: rgb(20, 120, 60);
+  border: 1px solid rgba(46, 204, 113, 0.35);
+}
+
+@media (max-width: 767px){
+  .patent-item{
+    padding: 16px;
+  }
+  .patent-title{
+    font-size: 1.08em;
+  }
+}

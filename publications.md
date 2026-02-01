@@ -63,6 +63,44 @@ You can also find publications on <a href="https://scholar.google.com/citations?
     {% endfor %}
 </table>
 
+
+<hr style="margin:42px 0; opacity:0.25;">
+
+# Patents
+
+<div class="patents-list">
+  {% assign patents_sorted = site.data.patents | sort: "date" | reverse %}
+  {% for p in patents_sorted %}
+    <div class="patent-item">
+      <div class="patent-title">
+        {% if p.url and p.url != "" %}
+          <a href="{{ p.url }}" target="_blank" rel="noopener"><b>{{ p.title }}</b></a>
+        {% else %}
+          <b>{{ p.title }}</b>
+        {% endif %}
+      </div>
+
+      <div class="patent-meta">
+        <span class="patent-badge patent-badge--{{ p.status }}">
+          {{ p.status }}
+        </span>
+        <span class="patent-meta-text">
+          {{ p.country }} · {{ p.number }} · {{ p.date | date: "%Y-%m-%d" }}
+        </span>
+      </div>
+
+      <div class="patent-meta-text" style="margin-top:8px;">
+        <b>Inventors:</b> {{ p.inventors | join: ", " }}<br>
+        <b>Assignee:</b> {{ p.assignee }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+
+
+
+
 <!-- Daniel: doing this to add a separate workshop publication section. -->
 <div style="height: 40px;"></div>
 
