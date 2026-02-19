@@ -17,23 +17,23 @@ members:
 
   - name: Master's Students
     list:
-      - full: true
-        list:
-          - name: Coming Soon
-            slug:
-            photo_url: /img/people/person.png
-            interests: ["Scheduling"]
-            email: 
+      # - full: true
+      #   list:
+      #     - name: Coming Soon
+      #       slug:
+      #       photo_url: /img/people/person.png
+      #       interests: ["Scheduling"]
+      #       email: 
 
   - name: Undergraduate Students
     list:
       - full: true
         list:
-          - name: Coming Soon
+          - name: Minseo Kang
             slug:
-            photo_url: /img/people/person.png
+            photo_url: /img/people/mskang.png
             interests: ["Simulation", "Metaheuristics"]
-            email: 2@ssu.ac.kr
+            email: leelucky3@soongsil.ac.kr
 
           - name: Coming Soon
             slug:
