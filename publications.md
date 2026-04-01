@@ -16,6 +16,13 @@ subtitle:
   body {
     margin: 0; /* Set margin to 0 for the entire body */
   }
+
+  /* 모바일에서 논문 이미지 숨기기 */
+  @media (max-width: 767px) {
+    td.pubimg {
+      display: none;
+    }
+  }
 </style>
 
 You can also find publications on <a href="https://scholar.google.com/citations?user=0Xzd2f8AAAAJ">Google Scholar</a> which may include some preprints not yet listed here.
@@ -107,15 +114,20 @@ You can also find publications on <a href="https://scholar.google.com/citations?
 
 <script>
 (function () {
-  const DEFAULT_SCALE = 5;     // 기본 2배
   const PADDING = 16;          // 커서와 미리보기 사이 간격
 
   let preview = null;
 
   function onEnter(e) {
     const img = e.currentTarget;
-    const rect = img.getBoundingClientRect();
-    const scale = parseFloat(img.dataset.scale || DEFAULT_SCALE);
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+
+    // 뷰포트 크기에 따라 반응형으로 최대 크기 결정
+    const maxW = vw < 768  ? vw * 0.85 :
+                 vw < 1200 ? vw * 0.55 :
+                             vw * 0.45;
+    const maxH = vh * 0.75;
 
     // 미리보기 이미지 생성
     preview = document.createElement('img');
@@ -127,9 +139,9 @@ You can also find publications on <a href="https://scholar.google.com/citations?
     preview.style.boxShadow = '0 10px 30px rgba(0,0,0,.35)';
     preview.style.borderRadius = '6px';
     preview.style.background = '#fff';
-    preview.style.width = Math.round(rect.width * scale) + 'px';
-    preview.style.maxWidth = (window.innerWidth * 0.9) + 'px';
-    preview.style.maxHeight = (window.innerHeight * 0.9) + 'px';
+    preview.style.maxWidth  = Math.round(maxW) + 'px';
+    preview.style.maxHeight = Math.round(maxH) + 'px';
+    preview.style.height = 'auto';
     preview.style.transition = 'opacity .08s ease';
     preview.style.opacity = '0';
 
