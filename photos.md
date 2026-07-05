@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Photos
+title: Lab Photos
 subtitle:
 permalink: /photos/
 ---
