@@ -53,6 +53,13 @@ permalink: /faculty/
       <div class="faculty-section">
         <h2>Teaching</h2>
 
+        <p class="faculty-note">(Soongsil University, 2025–Current)</p>
+        <ul>
+          <li>Quality Management (Fall)</li>
+          <li>Probability and Statistics 2 (Spring)</li>
+          <li>Capstone Design (Spring)</li>
+        </ul>
+
         <p class="faculty-note">(Tech University of Korea, 2019–2025)</p>
         <ul>
           <li>Python Programming</li>
