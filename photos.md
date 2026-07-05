@@ -35,7 +35,10 @@ permalink: /photos/
       <div class="gallery-modal-grid">
         {% for photo in event.photos %}
         <div class="gallery-modal-item">
-          <img src="/img/photos/{{ event.id }}/{{ photo.file }}" alt="{{ photo.caption | default: event.title_kr }}">
+          <img src="/img/photos/{{ event.id }}/{{ photo.file }}"
+               alt="{{ photo.caption | default: event.title_kr }}"
+               onclick="openLightbox(this, '{{ photo.caption | default: '' }}')"
+               class="gallery-thumb">
           {% if photo.caption and photo.caption != "" %}
           <p class="gallery-modal-caption">{{ photo.caption }}</p>
           {% endif %}
@@ -45,6 +48,13 @@ permalink: /photos/
     </div>
   </div>
   {% endfor %}
+
+  <!-- Lightbox -->
+  <div id="lightbox" onclick="closeLightbox()">
+    <button id="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <img id="lightbox-img" src="" alt="">
+    <p id="lightbox-caption"></p>
+  </div>
 
 </div>
 
@@ -57,8 +67,21 @@ function closeGallery(id) {
   document.getElementById('gallery-' + id).classList.remove('open');
   document.body.style.overflow = '';
 }
+function openLightbox(imgEl, caption) {
+  event.stopPropagation();
+  var lb = document.getElementById('lightbox');
+  document.getElementById('lightbox-img').src = imgEl.src;
+  var cap = document.getElementById('lightbox-caption');
+  cap.textContent = caption;
+  cap.style.display = caption ? 'block' : 'none';
+  lb.classList.add('open');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') {
+    closeLightbox();
     document.querySelectorAll('.gallery-modal.open').forEach(function(m) {
       m.classList.remove('open');
     });
