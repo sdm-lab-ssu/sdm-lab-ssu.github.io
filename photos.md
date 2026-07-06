@@ -32,16 +32,16 @@ permalink: /photos/
         <button class="gallery-modal-close" onclick="closeGallery('{{ event.id }}')">&times;</button>
       </div>
       <p class="gallery-date">{{ event.title }} &middot; {{ event.date }}</p>
+      {% if event.description and event.description != "" %}
+      <p class="gallery-modal-description">{{ event.description }}</p>
+      {% endif %}
       <div class="gallery-modal-grid">
         {% for photo in event.photos %}
         <div class="gallery-modal-item">
           <img src="/img/photos/{{ event.id }}/{{ photo.file }}"
-               alt="{{ photo.caption | default: event.title_kr }}"
-               onclick="openLightbox(this, '{{ photo.caption | default: '' }}')"
+               alt="{{ event.title_kr }}"
+               onclick="openLightbox(this, '')"
                class="gallery-thumb">
-          {% if photo.caption and photo.caption != "" %}
-          <p class="gallery-modal-caption">{{ photo.caption }}</p>
-          {% endif %}
         </div>
         {% endfor %}
       </div>

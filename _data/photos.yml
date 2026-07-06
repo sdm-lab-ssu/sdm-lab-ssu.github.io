@@ -1,16 +1,13 @@
-# Photo events. Each event has an id, title, date, and a list of photo filenames.
+# Photo events. Each event has an id, title, date, a description, and a list of photo filenames.
 # Place photo files in img/photos/<id>/ directory.
 
 - id: "kie_spring_2026"
   title: "2026 Spring Conference of Korean Institute of Industrial Engineers"
   title_kr: "2026 춘계대한산업공학회"
   date: "June 2026"
+  description: "허재석 교수 발표"
   photos:
     - file: "01.jpg"
-      caption: "허재석 교수 발표"
     - file: "02.jpg"
-      caption: ""
     - file: "03.jpg"
-      caption: ""
     - file: "04.jpg"
-      caption: ""
