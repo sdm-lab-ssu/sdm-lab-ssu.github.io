@@ -27,7 +27,7 @@ navbar-links:
     - Students: "members"
   Research: "research"
   Publications: "publications"
-  Photos: "photos"
+  Lab Photos: "photos"
   # Other:
   #   - Lab Photos: "photos"
   #   - Broader Impacts: "broader_impacts"
