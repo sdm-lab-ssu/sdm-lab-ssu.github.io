@@ -21,7 +21,7 @@
         {% endif %}
         <br>
         <div class="pubauthor">
-            {{pub.authors}}
+            {{ pub.authors | replace: "Jaeseok Huh", "<b>Jaeseok Huh</b>" | replace: "허재석", "<b>허재석</b>" }}
         </div>
         <div id="bib{{pub.short_id}}" style="display:none">
             <blockquote>

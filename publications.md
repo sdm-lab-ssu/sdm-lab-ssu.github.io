@@ -34,7 +34,7 @@ You can also find publications on <a href="https://scholar.google.com/citations?
   {% for item in site.data.under_review %}
     <li>
       <div><strong>{{ item.title }}</strong></div>
-      <div class="pubauthor">{{ item.authors }}</div>
+      <div class="pubauthor">{{ item.authors | replace: "Jaeseok Huh", "<b>Jaeseok Huh</b>" | replace: "허재석", "<b>허재석</b>" }}</div>
       <div><em>{{ item.venue }}</em></div>
     </li>
   {% endfor %}
@@ -46,7 +46,7 @@ You can also find publications on <a href="https://scholar.google.com/citations?
   {% for item in site.data.working_papers %}
     <li>
       <div><strong>{{ item.title }}</strong></div>
-      <div class="pubauthor">{{ item.authors }}</div>
+      <div class="pubauthor">{{ item.authors | replace: "Jaeseok Huh", "<b>Jaeseok Huh</b>" | replace: "허재석", "<b>허재석</b>" }}</div>
       <div><em>{{ item.venue }}</em></div>
     </li>
   {% endfor %}

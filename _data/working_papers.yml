@@ -25,3 +25,8 @@
   title: "A Data-Driven Decision-Support Framework for Municipal Road-Watering Operations: Environmental Priority Scoring and Route Optimization"
   authors: "Gabin Kim, Seoi Kim, Youjin Kwak, Ian Park, Jaeseok Huh*"
   venue: "Working Paper"
+
+- short_id: "huh_park_wp"
+  title: "A Q-Time-Aware Opportunistic Maintenance Policy for Semiconductor Manufacturing Facilities under Machine Deterioration"
+  authors: "Jaeseok Huh, Inbeom Park*"
+  venue: "Working Paper"
