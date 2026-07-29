@@ -46,6 +46,10 @@ members:
     list:
       - full: true
         list:
+         - name: Jinhwan Park
+           photo_url: /img/people/jhpark.jpg
+           current: "Micube Solution"
+           
          - name: Geonwon Lee
            photo_url: /img/people/gwlee.png
            current: "Eonetechnology"
