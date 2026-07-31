@@ -32,14 +32,20 @@ members:
           - name: Minseo Kang
             slug:
             photo_url: /img/people/mskang.png
-            interests: ["Simulation", "Metaheuristics"]
+            interests: ["Simulation", "Metaheuristics", "Reinforcement Learning"]
             email: leelucky3@soongsil.ac.kr
 
-          - name: Coming Soon
+          - name: Woojin Kim
             slug:
-            photo_url: /img/people/person.png
-            interests: ["Simulation", "Scheduling"]
-            email: 2@ssu.ac.kr
+            photo_url: /img/people/wjkim.png
+            interests:
+            email: gimojin1@soongsil.ac.kr
+
+          - name: Jinhyuck Song
+            slug:
+            photo_url: /img/people/jhsong.png
+            interests:
+            email: 99999koko@naver.com
 
 
   - name: Alumni
