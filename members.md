@@ -15,15 +15,15 @@ members:
   #            interests: ["RL", "Scheduling"]
           
 
-  - name: Master's Students
-    list:
-      # - full: true
-      #   list:
-      #     - name: Coming Soon
-      #       slug:
-      #       photo_url: /img/people/person.png
-      #       interests: ["Scheduling"]
-      #       email: 
+  # - name: Master's Students
+  #   list:
+  #     # - full: true
+  #     #   list:
+  #     #     - name: Coming Soon
+  #     #       slug:
+  #     #       photo_url: /img/people/person.png
+  #     #       interests: ["Scheduling"]
+  #     #       email: 
 
   - name: Undergraduate Students
     list:
@@ -32,19 +32,19 @@ members:
           - name: Minseo Kang
             slug:
             photo_url: /img/people/mskang.png
-            interests: ["Simulation", "Metaheuristics", "Reinforcement Learning"]
+            interests: ["Scheduling", "Metaheuristics", "Reinforcement Learning"]
             email: leelucky3@soongsil.ac.kr
 
           - name: Woojin Kim
             slug:
             photo_url: /img/people/wjkim.png
-            interests:
+            interests: ["Metaheuristics"]
             email: gimojin1@soongsil.ac.kr
 
           - name: Jinhyuck Song
             slug:
             photo_url: /img/people/jhsong.png
-            interests:
+            interests: ["Metaheuristics"]
             email: 99999koko@naver.com
 
 
