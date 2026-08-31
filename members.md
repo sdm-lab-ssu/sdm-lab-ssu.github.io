@@ -41,13 +41,6 @@ members:
             interests: ["Metaheuristics"]
             email: gimojin1@soongsil.ac.kr
 
-          - name: Jinhyuck Song
-            slug:
-            photo_url: /img/people/jhsong.png
-            interests: ["Metaheuristics"]
-            email: 99999koko@naver.com
-
-
   - name: Alumni
     list:
       - full: true
