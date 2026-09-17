@@ -19,3 +19,8 @@
   title: "A Two-Stage Deep Reinforcement Learning Approach for Unrelated Parallel Machine Scheduling with Sequence Dependent Family Setups and Preventive Maintenance under Machine Deterioration"
   authors: "Jinhwan Park, Jaeseok Huh*"
   venue: "Journal of Intelligent Manufacturing"
+
+- short_id: "kim_kim_kwak_park_huh_wp"
+  title: "A Data-Driven Decision-Support Framework for Municipal Road-Watering Operations: Environmental Priority Scoring and Route Optimization"
+  authors: "Gabin Kim, Seoi Kim, Youjin Kwak, Ian Park, Jaeseok Huh*"
+  venue: "Systems"
