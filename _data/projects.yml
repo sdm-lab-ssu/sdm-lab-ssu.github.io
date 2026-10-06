@@ -2,7 +2,7 @@
   english_title: "AX-Based Manufacturing Process Technology Development Program (On-Device AI Manufacturing Platform)"
   period: "Mar 2026 — Feb 2031"
   organization: "한국산업기술진흥원 (Korea Institute for Advancement of Technology, KIAT)"
-  tags: ["On-Device AI", "EdTech", "sLLM", "Personalized Learning", "Edge Computing", "XR", "AI Agent"]
+  tags: ["On-Device AI", "EdTech"]
   summary: "에듀테크 플랫폼과 온디바이스 AI를 융합하는 실무형 석박사 전문인력을 양성하는 대학원 인력양성사업"
   details: >
     에듀테크 선도 기업의 실제 데이터를 활용하여 엣지 디바이스 환경의 경량화 LLM(sLLM) 및 AI 모델링 기술을 교육하는 현장 밀착형 교육과정을 구축한다.
@@ -17,7 +17,7 @@
   english_title: "An Intelligent Semiconductor FAB Scheduling Framework Based on Metaheuristic Knowledge Transfer and Evolutionary Reinforcement Learning with Equipment Reliability"
   period: "Sep 2026 — Aug 2031"
   organization: "한국연구재단 (National Research Foundation of Korea, NRF)"
-  tags: ["Scheduling", "Evolutionary RL", "Metaheuristics", "Semiconductor FAB", "Case-Based Reasoning", "Predictive Maintenance", "MARL"]
+  tags: ["Scheduling", "Reinforcement Learning", "Metaheuristics"]
   summary: "메타휴리스틱 전역 탐색과 진화적 강화학습의 실시간 대응 능력을 융합하여, 반도체 FAB의 복합 제약과 설비 신뢰성을 동시에 고려하는 강건한 지능형 스케줄링 프레임워크를 구축"
   details: >
     [1차년도] Q-time·재진입 흐름·Setup Change 등 복합 운영 제약을 정밀 모사하는 메타휴리스틱-강화학습 공용 이원화 FAB 시뮬레이터를 개발하고,
