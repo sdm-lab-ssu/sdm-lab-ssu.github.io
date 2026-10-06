@@ -5,6 +5,17 @@ subtitle:
 permalink: /research/
 ---
 
+# Current Projects (진행 중인 연구과제)
+
+<div class="projects-grid">
+{% assign ongoing = site.data.projects | where: "status", "ongoing" %}
+{% for project in ongoing %}
+  {% include project.html %}
+{% endfor %}
+</div>
+
+---
+
 <div class="sim-callout">
   <b>핵심 철학 (Core Philosophy):</b> <b>시뮬레이션 기반 의사결정 연구실(SDM Lab)</b>의 모든 연구는 시뮬레이션에서 출발합니다. 
   이론적 아이디어가 실제 현장의 복잡한 의사결정을 효과적으로 지원할 수 있도록, 가상 환경에서 철저한 검증 과정을 거치는 것을 원칙으로 합니다.
@@ -22,10 +33,11 @@ permalink: /research/
 
 ---
 
-# Selected Projects
+# Selected Projects (과거 연구과제)
 
 <div class="projects-grid">
-{% for project in site.data.projects %}
+{% assign past = site.data.projects | where_exp: "p", "p.status != 'ongoing'" %}
+{% for project in past %}
   {% include project.html %}
 {% endfor %}
 </div>
