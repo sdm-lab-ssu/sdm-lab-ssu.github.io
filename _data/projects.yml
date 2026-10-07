@@ -11,7 +11,6 @@
   period: "Sep 2026 — Aug 2031"
   organization: "한국연구재단 (National Research Foundation of Korea, NRF)"
   tags: ["Scheduling", "Reinforcement Learning", "Metaheuristics"]
-  summary: "메타휴리스틱 전역 탐색과 진화적 강화학습의 실시간 대응 능력을 융합하여, 반도체 FAB의 복합 제약과 설비 신뢰성을 동시에 고려하는 강건한 지능형 스케줄링 프레임워크를 구축"
   links: []
   status: "ongoing"
 
