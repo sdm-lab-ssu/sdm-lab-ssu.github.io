@@ -15,6 +15,36 @@
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
+- short_id: "kim2026systems"
+  title: "A Data-Driven Decision-Support Framework for Municipal Road-Watering Operations: Environmental Priority Scoring and Route Optimization"
+  authors: "Gabin Kim, Seoi Kim, Youjin Kwak, Ian Park, Jaeseok Huh*"
+  venue: "Systems, 2026"
+  img: "../img/papers/sprinkler_truck.png"
+  abs: >-
+    Dust lifted from road surfaces by passing vehicles is a recurring source of urban particulate-matter exposure.
+    Municipal road-watering operations must allocate limited vehicle time and water capacity across road segments
+    with different service priorities while accounting for refilling, accessibility, and repeated-service requirements.
+    This study proposes an integrated decision-support framework for daily road-watering and applies it to Dongjak-gu,
+    Seoul, Republic of Korea. The framework combines data-driven urgency scoring based on floating population, traffic
+    volume, and PM10/PM2.5 hazard-day frequencies with a selective multi-vehicle, multi-trip arc-routing model and
+    heuristic solution procedures. Its distinguishing formulation feature is a completion-conditioned reward: a road
+    segment contributes its priority score only when all required watering passes are completed within the planning
+    horizon. The case study includes 2,213 candidate road segments covering approximately 208 km. Over 30 runs, the
+    proposed GA improves the priority-weighted objective by 35.24% relative to the Phase I constructive solution
+    (mean Z=127.13, 95% CI [125.88, 128.39]). The practice-inspired route-corridor baseline attains a higher
+    aggregate objective through broader contiguous coverage, whereas the GA concentrates service more strongly on
+    higher-urgency roads, completing 67.3% of C4 segments compared with 21.6% under the baseline. Under the same
+    decoder-call budget, ALNS achieves a higher mean objective value than the GA (130.16 vs. 127.13). These results
+    position the framework as a decision-support architecture for comparing feasible service-allocation strategies
+    rather than as a claim of GA dominance.
+  tags:
+    - arc routing
+    - road watering
+    - genetic algorithm
+    - optimization
+    - urban operations
+
+
 - short_id: "park2026genetic"
   title: "A genetic algorithm with feasibility-agnostic encoding and three-phase decoding for scheduling problems in semiconductor manufacturing"
   authors: "In-Beom Park, Jaeseok Huh*"
