@@ -1,0 +1,32 @@
+<div class="project-list-item">
+  <div class="project-list-main">
+    <span class="project-list-title">{{ project.title }}</span>
+    {% if project.english_title %}
+      <span class="project-list-en-title">{{ project.english_title }}</span>
+    {% endif %}
+  </div>
+  <div class="project-list-meta">
+    {% if project.period %}
+      <span class="project-list-period">{{ project.period }}</span>
+    {% endif %}
+    {% if project.organization %}
+      <span class="project-list-sep">·</span>
+      <span class="project-list-org">{{ project.organization }}</span>
+    {% endif %}
+    {% if project.role %}
+      <span class="project-list-sep">·</span>
+      <span class="project-list-role">{{ project.role }}</span>
+    {% endif %}
+    {% if project.note %}
+      <span class="project-list-sep">·</span>
+      <span class="project-list-note">{{ project.note }}</span>
+    {% endif %}
+  </div>
+  {% if project.tags %}
+    <div class="project-list-tags">
+      {% for t in project.tags %}
+        <span class="project-tag">{{ t }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>

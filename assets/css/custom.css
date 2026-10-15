@@ -843,6 +843,97 @@
   }
 }
 
+/* =========================================================
+   Projects list (과거 연구과제 목록 스타일)
+   ========================================================= */
+
+.projects-list{
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.project-list-item{
+  padding: 14px 4px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.project-list-item:first-child{
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.project-list-main{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.project-list-title{
+  font-weight: 800;
+  font-size: 1.05em;
+  line-height: 1.45;
+  color: #111;
+}
+
+.project-list-en-title{
+  font-size: 0.88em;
+  color: #666;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.project-list-meta{
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.93em;
+  color: #555;
+}
+
+.project-list-period{
+  font-weight: 600;
+  color: rgb(0, 110, 147);
+}
+
+.project-list-sep{
+  color: #bbb;
+}
+
+.project-list-org{
+  color: #555;
+}
+
+.project-list-role{
+  font-weight: 600;
+  color: #888;
+}
+
+.project-list-note{
+  color: #aaa;
+  font-style: italic;
+}
+
+.project-list-tags{
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+@media (max-width: 767px){
+  .project-list-title{
+    font-size: 1.0em;
+  }
+  .project-list-en-title{
+    display: none;
+  }
+}
+
+
 /* ===== Patents list ===== */
 
 .patents-list{

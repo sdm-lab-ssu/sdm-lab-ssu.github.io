@@ -40,6 +40,28 @@
     설비 가동률을 향상시키고 Q-time 제약 위반 Lot 수를 최소화하는 결과를 성공적으로 도출하였다.
   links: []
 
+- title: "에너지 프로슈머 빅데이터 분석 및 AI 알고리즘을 활용한 P2P 에너지 블록체인 기술개발"
+  period: "Apr 2020 — Dec 2023"
+  organization: "정보통신산업진흥원 (National IT Industry Promotion Agency, NIPA)"
+  tags: ["Big Data", "AI", "Blockchain", "Energy", "P2P"]
+  role: "참여"
+  links: []
+
+- title: "Deep Reinforcement Learning을 활용한 지능형 Real-Time Scheduling/Dispatching (1~5차)"
+  period: "Jan 2016 — Oct 2018"
+  organization: "PCG Korea"
+  tags: ["Deep Reinforcement Learning", "Scheduling", "Dispatching", "Real-Time"]
+  role: "참여"
+  note: "@ SNU"
+  links: []
+
+- title: "기계 학습과 정보 검색을 이용한 제조 및 서비스 시스템 운영의 최적화 기법 연구"
+  period: "Nov 2015 — Oct 2018"
+  organization: "한국연구재단 (National Research Foundation of Korea, NRF)"
+  tags: ["Machine Learning", "Information Retrieval", "Optimization", "Manufacturing", "Service Systems"]
+  role: "참여"
+  links: []
+
 - title: "메타휴리스틱과 심층강화학습을 이용한 실시간 제조라인 일정계획 수립 기법"
   period: "Mar 2020 — Feb 2023"
   organization: "National Research Foundation of Korea (NRF)"

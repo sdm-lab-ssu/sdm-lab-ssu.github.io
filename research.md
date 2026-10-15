@@ -7,10 +7,10 @@ permalink: /research/
 
 # Current Projects (진행 중인 연구과제)
 
-<div class="projects-grid">
+<div class="projects-list">
 {% assign ongoing = site.data.projects | where: "status", "ongoing" %}
 {% for project in ongoing %}
-  {% include project.html %}
+  {% include project_list_item.html %}
 {% endfor %}
 </div>
 
@@ -35,10 +35,10 @@ permalink: /research/
 
 # Selected Projects (과거 연구과제)
 
-<div class="projects-grid">
+<div class="projects-list">
 {% assign past = site.data.projects | where_exp: "p", "p.status != 'ongoing'" %}
 {% for project in past %}
-  {% include project.html %}
+  {% include project_list_item.html %}
 {% endfor %}
 </div>
 
