@@ -15,3 +15,39 @@
   inventors: ["고광종", "허재석*"]
   assignee: "한국공학대학교"
   url: "https://doi.org/10.8080/1020210148902"
+
+- title: "선호도 기반 강화학습을 이용한 스케줄링 장치 및 방법"
+  status: "출원"
+  country: "KR"
+  number: "10-2025-0002152"
+  date: "2025-01-07"
+  inventors: ["이건원", "허재석*"]
+  assignee: "한국공학대학교"
+  url: "https://doi.org/10.8080/1020250002152"
+
+- title: "다중교차로의 신호를 제어하기 위한 서버 및 그 구동 방법"
+  status: "출원"
+  country: "KR"
+  number: "10-2024-0091877"
+  date: "2024-07-11"
+  inventors: ["박진환", "허재석*"]
+  assignee: "한국공학대학교"
+  url: "https://doi.org/10.8080/1020240091877"
+
+- title: "제품 제조 공장의 스케줄 고속 생성을 위한 서버 및 그 구동 방법"
+  status: "출원"
+  country: "KR"
+  number: "10-2024-0060406"
+  date: "2024-05-08"
+  inventors: ["박인범", "허재석*"]
+  assignee: "한국공학대학교, 명지대학교"
+  url: "https://doi.org/10.8080/1020240060406"
+
+- title: "욜로와 듀얼 칼만 필터 기반의 객체 추적 시스템 및 방법"
+  status: "출원"
+  country: "KR"
+  number: "10-2023-0023022"
+  date: "2023-02-21"
+  inventors: ["김다슬", "허재석*"]
+  assignee: "한국공학대학교"
+  url: "https://doi.org/10.8080/1020230023022"
