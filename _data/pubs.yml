@@ -17,8 +17,9 @@
 
 - short_id: "kim2026systems"
   title: "A Data-Driven Decision-Support Framework for Municipal Road-Watering Operations: Environmental Priority Scoring and Route Optimization"
-  authors: "Gabin Kim, Seoi Kim, Youjin Kwak, Ian Park, Jaeseok Huh*"
+  authors: "Gabeen Kim, Seoyi Kim, Youjin Kwak, Ian Park, Jaeseok Huh*"
   venue: "Systems, 2026"
+  site: "https://www.mdpi.com/2079-8954/14/10/1316"
   img: "../img/papers/sprinkler_truck.png"
   abs: >-
     Dust lifted from road surfaces by passing vehicles is a recurring source of urban particulate-matter exposure.
@@ -37,6 +38,17 @@
     decoder-call budget, ALNS achieves a higher mean objective value than the GA (130.16 vs. 127.13). These results
     position the framework as a decision-support architecture for comparing feasible service-allocation strategies
     rather than as a claim of GA dominance.
+  bib: |-
+    @article{kim2026data,
+      title={A Data-Driven Decision-Support Framework for Municipal Road-Watering Operations: Environmental Priority Scoring and Route Optimization},
+      author={Kim, Gabeen and Kim, Seoyi and Kwak, Youjin and Park, Ian and Huh, Jaeseok},
+      journal={Systems},
+      volume={14},
+      number={10},
+      pages={1316},
+      year={2026},
+      publisher={Multidisciplinary Digital Publishing Institute}
+    }
   tags:
     - arc routing
     - road watering
