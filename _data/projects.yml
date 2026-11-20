@@ -3,6 +3,7 @@
   period: "Mar 2026 — Feb 2031"
   organization: "한국산업기술진흥원 (Korea Institute for Advancement of Technology, KIAT)"
   tags: ["On-Device AI", "EdTech"]
+  role: "참여"
   links: []
   status: "ongoing"
 
@@ -11,6 +12,7 @@
   period: "Sep 2026 — Aug 2031"
   organization: "한국연구재단 (National Research Foundation of Korea, NRF)"
   tags: ["Scheduling", "Reinforcement Learning", "Metaheuristics"]
+  role: "연구책임자"
   links: []
   status: "ongoing"
 
