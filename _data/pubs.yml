@@ -16,7 +16,7 @@
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
 - short_id: "park2026twostage"
-  title: "A Two-Stage Deep Reinforcement Learning Approach for Unrelated Parallel Machine Scheduling with Sequence Dependent Family Setups and Preventive Maintenance under Machine Deterioration"
+  title: "A two-stage deep reinforcement learning approach for unrelated parallel machine scheduling with sequence dependent family setups and preventive maintenance under machine deterioration"
   authors: "Jinhwan Park, Jaeseok Huh*"
   venue: "Journal of Intelligent Manufacturing, 2026 (Accepted)"
   img: "../img/papers/deter_2026.png"
@@ -44,7 +44,7 @@
 
 
 - short_id: "kim2026systems"
-  title: "A Data-Driven Decision-Support Framework for Municipal Road-Watering Operations: Environmental Priority Scoring and Route Optimization"
+  title: "A data-driven decision-support framework for municipal road-watering operations: Environmental priority scoring and route optimization"
   authors: "Gabeen Kim, Seoyi Kim, Youjin Kwak, Ian Park, Jaeseok Huh*"
   venue: "Systems, 2026"
   site: "https://www.mdpi.com/2079-8954/14/10/1316"
@@ -254,7 +254,7 @@
 
 
 - short_id: "huh2020_ieeeaccess"
-  title: "A Behavior optimization method for unmanned combat aerial vehicles using matrix factorization"
+  title: "A behavior optimization method for unmanned combat aerial vehicles using matrix factorization"
   authors: "Jaeseok Huh, Jonghun Park, Dongmin Shin, Yerim Choi*"
   venue: "IEEE Access, 2020"
   site: "https://ieeexplore.ieee.org/document/9103002"
@@ -346,7 +346,7 @@
     }
 
 - short_id: "jo2014livegantt"
-  title: "LiveGantt: Interactively Visualizing a Large Manufacturing Schedule"
+  title: "LiveGantt: Interactively visualizing a large manufacturing schedule"
   authors: "Jaemin Jo, Jaeseok Huh, Jonghun Park, Bohyoung Kim, Jinwook Seo*"
   venue: "IEEE transactions on visualization and computer graphics, 2014"
   site: "https://ieeexplore.ieee.org/abstract/document/6875942"
