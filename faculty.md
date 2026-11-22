@@ -46,7 +46,7 @@ permalink: /faculty/
           <li><b>Assistant Professor</b>, Department of Industrial and Information Systems Engineering, Soongsil University (2025–Current)</li>
           <li><b>Assistant Professor</b>, Department of Business Administration, Tech University of Korea (2019–2025)</li>
           <li><b>Applied Scientist (Consulting)</b>, Gausslabs Inc. (2021–2023)</li>
-          <li><b>Advisory Committee Member</b>, Republic of Korea Army (2021–Current)</li>
+          <li><b>Advisory Committee Member</b>, Republic of Korea Army (2021–2026)</li>
         </ul>
       </div>
 
